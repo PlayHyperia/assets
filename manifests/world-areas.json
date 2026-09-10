@@ -6,10 +6,10 @@
       "description": "The central hub of Hyperia, a peaceful sanctuary protected by ancient wards.",
       "difficultyLevel": 0,
       "bounds": {
-        "minX": -18,
-        "maxX": 18,
-        "minZ": -18,
-        "maxZ": 18
+        "minX": 332,
+        "maxX": 368,
+        "minZ": 302,
+        "maxZ": 338
       },
       "biomeType": "starter_town",
       "safeZone": true,
@@ -17,70 +17,70 @@
         {
           "id": "bank_clerk",
           "type": "bank",
-          "position": { "x": 6, "y": 0, "z": 4 }
+          "position": { "x": 356, "y": 0, "z": 324 }
         },
         {
           "id": "shopkeeper",
           "type": "general_store",
           "storeId": "general_store",
-          "position": { "x": -6, "y": 0, "z": 4 }
+          "position": { "x": 344, "y": 0, "z": 324 }
         },
         {
           "id": "captain_rowan",
           "type": "quest_giver",
-          "position": { "x": 12, "y": 0, "z": 12 }
+          "position": { "x": 362, "y": 0, "z": 332 }
         },
         {
           "id": "forester_wilma",
           "type": "quest_giver",
-          "position": { "x": 14, "y": 0, "z": -8 }
+          "position": { "x": 364, "y": 0, "z": 312 }
         },
         {
           "id": "fisherman_pete",
           "type": "quest_giver",
           "storeId": "fishing_store",
-          "position": { "x": -9, "y": 0, "z": -5 }
+          "position": { "x": 341, "y": 0, "z": 315 }
         },
         {
           "id": "torvin",
           "type": "quest_giver",
           "storeId": "sword_store",
-          "position": { "x": -14, "y": 0, "z": 14 }
+          "position": { "x": 336, "y": 0, "z": 334 }
         },
         {
           "id": "tanner",
           "type": "tanner",
-          "position": { "x": -10, "y": 0, "z": 14 }
+          "position": { "x": 340, "y": 0, "z": 334 }
         },
         {
           "id": "wizard_zamorin",
           "type": "magic_store",
           "storeId": "magic_store",
-          "position": { "x": -10, "y": 0, "z": -10 }
+          "position": { "x": 340, "y": 0, "z": 310 }
         },
         {
           "id": "bowyer",
           "type": "range_store",
           "storeId": "range_store",
-          "position": { "x": -15, "y": 0, "z": 5 }
+          "position": { "x": 335, "y": 0, "z": 325 }
         },
         {
           "id": "armorer",
           "type": "armor_store",
           "storeId": "armor_store",
-          "position": { "x": -11, "y": 0, "z": 5 }
+          "position": { "x": 339, "y": 0, "z": 325 }
         },
         {
           "id": "crafting_supplier",
           "type": "crafting_store",
           "storeId": "crafting_store",
-          "position": { "x": -12, "y": 0, "z": 11 }
+          "position": { "x": 338, "y": 0, "z": 331 }
         }
       ],
       "resources": [
         {
           "type": "tree",
-          "position": { "x": 16, "y": 0, "z": -10 },
+          "position": { "x": 366, "y": 0, "z": 310 },
           "resourceId": "tree_general"
         }
       ],
@@ -89,38 +89,38 @@
         {
           "id": "bank_spawn",
           "type": "bank",
-          "position": { "x": -2, "y": 0, "z": -2 },
+          "position": { "x": 348, "y": 0, "z": 318 },
           "bankId": "spawn_bank"
         },
         {
           "id": "furnace_spawn",
           "type": "furnace",
-          "position": { "x": -15, "y": 0, "z": 16 }
+          "position": { "x": 335, "y": 0, "z": 336 }
         },
         {
           "id": "anvil_spawn",
           "type": "anvil",
-          "position": { "x": -12, "y": 0, "z": 16 }
+          "position": { "x": 338, "y": 0, "z": 336 }
         },
         {
           "id": "altar_spawn",
           "type": "altar",
-          "position": { "x": 4, "y": 0, "z": -12 }
+          "position": { "x": 354, "y": 0, "z": 308 }
         },
         {
           "id": "range_spawn",
           "type": "range",
-          "position": { "x": -14, "y": 0, "z": -3 }
+          "position": { "x": 336, "y": 0, "z": 317 }
         }
       ],
       "flatZones": [
         {
           "id": "central_haven_plaza",
-          "centerX": 0,
-          "centerZ": 0,
+          "centerX": 350,
+          "centerZ": 320,
           "width": 36,
           "depth": 36,
-          "heightOffset": 0,
+          "height": 28.419301523097687,
           "blendRadius": 6
         }
       ]
@@ -133,10 +133,10 @@
       "description": "A compact fishing pond beside Central Haven where agents can acquire and prepare food.",
       "difficultyLevel": 0,
       "bounds": {
-        "minX": -18,
-        "maxX": 4,
-        "minZ": -29,
-        "maxZ": -7
+        "minX": 332,
+        "maxX": 354,
+        "minZ": 291,
+        "maxZ": 313
       },
       "biomeType": "forest",
       "safeZone": true,
@@ -144,7 +144,7 @@
       "resources": [
         {
           "type": "fishing_spot",
-          "position": { "x": -9.5, "y": 27.8, "z": -13 },
+          "position": { "x": 340.5, "y": 27.8, "z": 307 },
           "resourceId": "fishing_spot_net"
         }
       ],
@@ -162,8 +162,8 @@
       "flatZones": [
         {
           "id": "haven_pond_floor",
-          "centerX": -7,
-          "centerZ": -18,
+          "centerX": 343,
+          "centerZ": 302,
           "width": 22,
           "depth": 22,
           "height": 26.6,
@@ -179,8 +179,8 @@
       "waterBodies": [
         {
           "id": "haven_pond_water",
-          "centerX": -7,
-          "centerZ": -18,
+          "centerX": 343,
+          "centerZ": 302,
           "radius": 7.5,
           "surfaceY": 27.8
         }
@@ -192,10 +192,10 @@
       "description": "A compact preparation ring for gathering resources, training combat, and practicing specialized production skills.",
       "difficultyLevel": 1,
       "bounds": {
-        "minX": -36,
-        "maxX": 36,
-        "minZ": -36,
-        "maxZ": 36
+        "minX": 314,
+        "maxX": 386,
+        "minZ": 284,
+        "maxZ": 356
       },
       "biomeType": "plains",
       "safeZone": false,
@@ -215,115 +215,115 @@
       "resources": [
         {
           "type": "tree",
-          "position": { "x": 22, "y": 0, "z": -8 },
+          "position": { "x": 372, "y": 0, "z": 312 },
           "resourceId": "tree_oak"
         },
         {
           "type": "tree",
-          "position": { "x": 28, "y": 0, "z": -10 },
+          "position": { "x": 378, "y": 0, "z": 310 },
           "resourceId": "tree_maple"
         },
         {
           "type": "tree",
-          "position": { "x": 28, "y": 0, "z": -17 },
+          "position": { "x": 378, "y": 0, "z": 303 },
           "resourceId": "tree_mahogany"
         },
         {
           "type": "tree",
-          "position": { "x": 24, "y": 0, "z": -22 },
+          "position": { "x": 374, "y": 0, "z": 298 },
           "resourceId": "tree_magic"
         },
         {
           "type": "ore",
-          "position": { "x": -14, "y": 0, "z": 24 },
+          "position": { "x": 336, "y": 0, "z": 344 },
           "resourceId": "ore_copper"
         },
         {
           "type": "ore",
-          "position": { "x": -10, "y": 0, "z": 27 },
+          "position": { "x": 340, "y": 0, "z": 347 },
           "resourceId": "ore_tin"
         },
         {
           "type": "ore",
-          "position": { "x": -6, "y": 0, "z": 24 },
+          "position": { "x": 344, "y": 0, "z": 344 },
           "resourceId": "ore_iron"
         },
         {
           "type": "ore",
-          "position": { "x": 2, "y": 0, "z": 26 },
+          "position": { "x": 352, "y": 0, "z": 346 },
           "resourceId": "ore_coal"
         },
         {
           "type": "ore",
-          "position": { "x": 6, "y": 0, "z": 24 },
+          "position": { "x": 356, "y": 0, "z": 344 },
           "resourceId": "ore_mithril"
         },
         {
           "type": "ore",
-          "position": { "x": 10, "y": 0, "z": 27 },
+          "position": { "x": 360, "y": 0, "z": 347 },
           "resourceId": "ore_adamant"
         },
         {
           "type": "ore",
-          "position": { "x": 14, "y": 0, "z": 24 },
+          "position": { "x": 364, "y": 0, "z": 344 },
           "resourceId": "ore_runite"
         },
         {
           "type": "ore",
-          "position": { "x": 16, "y": 0, "z": -24 },
+          "position": { "x": 366, "y": 0, "z": 296 },
           "resourceId": "ore_essence"
         },
         {
           "type": "ore",
-          "position": { "x": 20, "y": 0, "z": -23 },
+          "position": { "x": 370, "y": 0, "z": 297 },
           "resourceId": "ore_essence"
         },
         {
           "type": "ore",
-          "position": { "x": 24, "y": 0, "z": -24 },
+          "position": { "x": 374, "y": 0, "z": 296 },
           "resourceId": "ore_essence"
         }
       ],
       "mobSpawns": [
         {
           "mobId": "goblin",
-          "position": { "x": 28, "y": 0, "z": 16 },
+          "position": { "x": 378, "y": 0, "z": 336 },
           "spawnRadius": 3,
           "maxCount": 3
         },
         {
           "mobId": "cow",
-          "position": { "x": -28, "y": 0, "z": 18 },
+          "position": { "x": 322, "y": 0, "z": 338 },
           "spawnRadius": 3,
           "maxCount": 3
         },
         {
           "mobId": "dark_wizard",
-          "position": { "x": 28, "y": 0, "z": -24 },
+          "position": { "x": 378, "y": 0, "z": 296 },
           "spawnRadius": 3,
           "maxCount": 2
         },
         {
           "mobId": "dark_ranger",
-          "position": { "x": 16, "y": 0, "z": -29 },
+          "position": { "x": 366, "y": 0, "z": 291 },
           "spawnRadius": 3,
           "maxCount": 2
         },
         {
           "mobId": "guard",
-          "position": { "x": 0, "y": 0, "z": 29 },
+          "position": { "x": 350, "y": 0, "z": 349 },
           "spawnRadius": 3,
           "maxCount": 2
         },
         {
           "mobId": "bandit",
-          "position": { "x": -26, "y": 0, "z": 26 },
+          "position": { "x": 324, "y": 0, "z": 346 },
           "spawnRadius": 3,
           "maxCount": 3
         },
         {
           "mobId": "barbarian",
-          "position": { "x": -29, "y": 0, "z": 8 },
+          "position": { "x": 321, "y": 0, "z": 328 },
           "spawnRadius": 3,
           "maxCount": 3
         }
@@ -333,47 +333,47 @@
           "id": "air_altar_spawn",
           "type": "runecrafting_altar",
           "runeType": "air",
-          "position": { "x": 18, "y": 0, "z": -24 }
+          "position": { "x": 368, "y": 0, "z": 296 }
         },
         {
           "id": "mind_altar_spawn",
           "type": "runecrafting_altar",
           "runeType": "mind",
-          "position": { "x": 22, "y": 0, "z": -24 }
+          "position": { "x": 372, "y": 0, "z": 296 }
         },
         {
           "id": "water_altar_spawn",
           "type": "runecrafting_altar",
           "runeType": "water",
-          "position": { "x": 29, "y": 0, "z": -22 }
+          "position": { "x": 379, "y": 0, "z": 298 }
         },
         {
           "id": "earth_altar_spawn",
           "type": "runecrafting_altar",
           "runeType": "earth",
-          "position": { "x": 29, "y": 0, "z": -15 }
+          "position": { "x": 379, "y": 0, "z": 305 }
         },
         {
           "id": "fire_altar_spawn",
           "type": "runecrafting_altar",
           "runeType": "fire",
-          "position": { "x": 23, "y": 0, "z": -12 }
+          "position": { "x": 373, "y": 0, "z": 308 }
         },
         {
           "id": "chaos_altar_spawn",
           "type": "runecrafting_altar",
           "runeType": "chaos",
-          "position": { "x": 19, "y": 0, "z": -19 }
+          "position": { "x": 369, "y": 0, "z": 301 }
         }
       ],
       "flatZones": [
         {
           "id": "preparation_campus_grade",
-          "centerX": 0,
-          "centerZ": 0,
+          "centerX": 350,
+          "centerZ": 320,
           "width": 72,
           "depth": 72,
-          "heightOffset": 0,
+          "height": 28.419301523097687,
           "blendRadius": 12
         }
       ]
@@ -399,7 +399,18 @@
       "npcs": [],
       "resources": [],
       "mobSpawns": [],
-      "stations": []
+      "stations": [],
+      "flatZones": [
+        {
+          "id": "duel_arena_campus_grade",
+          "centerX": 368,
+          "centerZ": 418.75,
+          "width": 104,
+          "depth": 140.5,
+          "height": 28.419301523097687,
+          "blendRadius": 24
+        }
+      ]
     }
   }
 }

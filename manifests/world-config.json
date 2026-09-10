@@ -2,9 +2,9 @@
   "version": 1,
   "terrain": {
     "tileSize": 100,
-    "worldSize": 100,
+    "worldSize": 4,
     "tileResolution": 64,
-    "maxHeight": 30,
+    "maxHeight": 50,
     "waterThreshold": 16,
     "biomeScale": 1,
     "fogNear": 150,
@@ -12,7 +12,7 @@
     "cameraFar": 400
   },
   "towns": {
-    "townCount": 25,
+    "townCount": 0,
     "minTownSpacing": 800,
     "flatnessSampleRadius": 40,
     "flatnessSampleCount": 16,
@@ -92,5 +92,58 @@
     "costWaterPenalty": 1000,
     "heuristicWeight": 2.5
   },
-  "seed": 0
+  "pois": {
+    "countPerCategory": {
+      "dungeon": 0,
+      "shrine": 0,
+      "landmark": 0,
+      "resource_area": 0,
+      "ruin": 0,
+      "camp": 0,
+      "crossing": 0,
+      "waystation": 0,
+      "fishing_spot": 0
+    },
+    "minDistanceFromTowns": 20,
+    "minPOISpacing": 30,
+    "maxRoadExtensionDistance": 150,
+    "importanceThresholdForRoad": 0.5
+  },
+  "seed": 0,
+  "terrainProfile": {
+    "schemaVersion": 1,
+    "algorithm": "terrain-height-params-v1",
+    "id": "compact-duel-island-v1",
+    "kind": "compact-candidate",
+    "seed": 0,
+    "boundsMeaning": "nominal-generation-envelope",
+    "bounds": { "minX": 150, "maxX": 550, "minZ": 200, "maxZ": 600 },
+    "terrainTileSize": 100,
+    "island": {
+      "centerX": 350,
+      "centerZ": 400,
+      "radius": 165,
+      "falloff": 30,
+      "deepOceanBuffer": 25,
+      "beachProfilePower": 3,
+      "maxCoastVariation": 0.06
+    },
+    "height": {
+      "maxHeightParameter": 50,
+      "terrainScale": 32,
+      "baseOffset": 22,
+      "featureScale": 1.4
+    },
+    "water": { "threshold": 16, "oceanFloorHeight": 2.5 },
+    "shoreline": {
+      "THRESHOLD": 0.25,
+      "STRENGTH": 0.6,
+      "MIN_SLOPE": 0.06,
+      "SLOPE_SAMPLE_DISTANCE": 1,
+      "LAND_BAND": 3,
+      "LAND_MAX_MULTIPLIER": 1.6,
+      "UNDERWATER_BAND": 3,
+      "UNDERWATER_DEPTH_MULTIPLIER": 1.8
+    }
+  }
 }
