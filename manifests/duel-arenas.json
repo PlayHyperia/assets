@@ -1,112 +1,102 @@
 {
+  "schemaVersion": 2,
+  "runtimeSource": "packages/shared/src/data/arena-layout.ts",
+  "layout": {
+    "base": { "x": 340, "y": 0.42, "z": 394 },
+    "arenaSize": { "width": 20, "length": 24 },
+    "gap": 4,
+    "columns": 2,
+    "rows": 3,
+    "spawnOffset": 8,
+    "spawnLayout": "alongLength"
+  },
   "arenas": [
     {
       "arenaId": 1,
-      "center": { "x": 210, "z": 210 },
-      "size": 16,
+      "center": { "x": 350, "z": 406 },
+      "bounds": { "minX": 340, "maxX": 360, "minZ": 394, "maxZ": 418 },
       "spawnPoints": [
-        { "x": 206, "y": 0, "z": 210 },
-        { "x": 214, "y": 0, "z": 210 }
+        { "x": 350, "y": 0.42, "z": 398 },
+        { "x": 350, "y": 0.42, "z": 414 }
       ],
-      "trapdoorPositions": [
-        { "x": 203, "z": 206 },
-        { "x": 203, "z": 214 },
-        { "x": 217, "z": 206 },
-        { "x": 217, "z": 214 }
+      "forfeitPillarPositions": [
+        { "x": 342, "z": 416 },
+        { "x": 358, "z": 396 }
       ]
     },
     {
       "arenaId": 2,
-      "center": { "x": 250, "z": 210 },
-      "size": 16,
+      "center": { "x": 374, "z": 406 },
+      "bounds": { "minX": 364, "maxX": 384, "minZ": 394, "maxZ": 418 },
       "spawnPoints": [
-        { "x": 246, "y": 0, "z": 210 },
-        { "x": 254, "y": 0, "z": 210 }
+        { "x": 374, "y": 0.42, "z": 398 },
+        { "x": 374, "y": 0.42, "z": 414 }
       ],
-      "trapdoorPositions": [
-        { "x": 243, "z": 206 },
-        { "x": 243, "z": 214 },
-        { "x": 257, "z": 206 },
-        { "x": 257, "z": 214 }
+      "forfeitPillarPositions": [
+        { "x": 366, "z": 416 },
+        { "x": 382, "z": 396 }
       ]
     },
     {
       "arenaId": 3,
-      "center": { "x": 290, "z": 210 },
-      "size": 16,
+      "center": { "x": 350, "z": 434 },
+      "bounds": { "minX": 340, "maxX": 360, "minZ": 422, "maxZ": 446 },
       "spawnPoints": [
-        { "x": 286, "y": 0, "z": 210 },
-        { "x": 294, "y": 0, "z": 210 }
+        { "x": 350, "y": 0.42, "z": 426 },
+        { "x": 350, "y": 0.42, "z": 442 }
       ],
-      "trapdoorPositions": [
-        { "x": 283, "z": 206 },
-        { "x": 283, "z": 214 },
-        { "x": 297, "z": 206 },
-        { "x": 297, "z": 214 }
+      "forfeitPillarPositions": [
+        { "x": 342, "z": 444 },
+        { "x": 358, "z": 424 }
       ]
     },
     {
       "arenaId": 4,
-      "center": { "x": 210, "z": 260 },
-      "size": 16,
+      "center": { "x": 374, "z": 434 },
+      "bounds": { "minX": 364, "maxX": 384, "minZ": 422, "maxZ": 446 },
       "spawnPoints": [
-        { "x": 206, "y": 0, "z": 260 },
-        { "x": 214, "y": 0, "z": 260 }
+        { "x": 374, "y": 0.42, "z": 426 },
+        { "x": 374, "y": 0.42, "z": 442 }
       ],
-      "trapdoorPositions": [
-        { "x": 203, "z": 256 },
-        { "x": 203, "z": 264 },
-        { "x": 217, "z": 256 },
-        { "x": 217, "z": 264 }
+      "forfeitPillarPositions": [
+        { "x": 366, "z": 444 },
+        { "x": 382, "z": 424 }
       ]
     },
     {
       "arenaId": 5,
-      "center": { "x": 250, "z": 260 },
-      "size": 16,
+      "center": { "x": 350, "z": 462 },
+      "bounds": { "minX": 340, "maxX": 360, "minZ": 450, "maxZ": 474 },
       "spawnPoints": [
-        { "x": 246, "y": 0, "z": 260 },
-        { "x": 254, "y": 0, "z": 260 }
+        { "x": 350, "y": 0.42, "z": 454 },
+        { "x": 350, "y": 0.42, "z": 470 }
       ],
-      "trapdoorPositions": [
-        { "x": 243, "z": 256 },
-        { "x": 243, "z": 264 },
-        { "x": 257, "z": 256 },
-        { "x": 257, "z": 264 }
+      "forfeitPillarPositions": [
+        { "x": 342, "z": 472 },
+        { "x": 358, "z": 452 }
       ]
     },
     {
       "arenaId": 6,
-      "center": { "x": 290, "z": 260 },
-      "size": 16,
+      "center": { "x": 374, "z": 462 },
+      "bounds": { "minX": 364, "maxX": 384, "minZ": 450, "maxZ": 474 },
       "spawnPoints": [
-        { "x": 286, "y": 0, "z": 260 },
-        { "x": 294, "y": 0, "z": 260 }
+        { "x": 374, "y": 0.42, "z": 454 },
+        { "x": 374, "y": 0.42, "z": 470 }
       ],
-      "trapdoorPositions": [
-        { "x": 283, "z": 256 },
-        { "x": 283, "z": 264 },
-        { "x": 297, "z": 256 },
-        { "x": 297, "z": 264 }
+      "forfeitPillarPositions": [
+        { "x": 366, "z": 472 },
+        { "x": 382, "z": 452 }
       ]
     }
   ],
   "lobby": {
-    "center": { "x": 250, "z": 295 },
-    "size": { "width": 60, "depth": 30 },
-    "spawnPoint": { "x": 250, "y": 0, "z": 295 }
+    "center": { "x": 385, "z": 376 },
+    "size": { "width": 40, "depth": 25 },
+    "spawnPoint": { "x": 385, "y": 0.42, "z": 374 }
   },
   "hospital": {
-    "center": { "x": 210, "z": 295 },
-    "size": { "width": 20, "depth": 15 },
-    "spawnPoint": { "x": 210, "y": 0, "z": 295 }
-  },
-  "constants": {
-    "arenaSize": 16,
-    "wallHeight": 2.5,
-    "wallThickness": 0.5,
-    "floorColor": "0xc2b280",
-    "wallColor": "0x8b7355",
-    "trapdoorColor": "0x4a3728"
+    "center": { "x": 345, "z": 376 },
+    "size": { "width": 28, "depth": 23 }
   }
 }

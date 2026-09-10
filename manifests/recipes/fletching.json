@@ -1,5 +1,5 @@
 {
-  "_comment": "OSRS-accurate fletching recipes. Knife+logs for shafts/bows, stringing, arrow assembly.",
+  "_comment": "rules-consistent fletching recipes. Knife+logs for shafts/bows, stringing, arrow assembly.",
   "recipes": [
     {
       "_comment": "=== ARROW SHAFTS (Knife + Logs) ===",

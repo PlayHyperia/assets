@@ -1,0 +1,96 @@
+{
+  "version": 1,
+  "terrain": {
+    "tileSize": 100,
+    "worldSize": 100,
+    "tileResolution": 64,
+    "maxHeight": 30,
+    "waterThreshold": 16,
+    "biomeScale": 1,
+    "fogNear": 150,
+    "fogFar": 350,
+    "cameraFar": 400
+  },
+  "towns": {
+    "townCount": 25,
+    "minTownSpacing": 800,
+    "flatnessSampleRadius": 40,
+    "flatnessSampleCount": 16,
+    "waterThreshold": 16,
+    "optimalWaterDistanceMin": 30,
+    "optimalWaterDistanceMax": 150,
+    "townSizes": {
+      "hamlet": {
+        "minBuildings": 3,
+        "maxBuildings": 5,
+        "radius": 25,
+        "safeZoneRadius": 40
+      },
+      "village": {
+        "minBuildings": 6,
+        "maxBuildings": 10,
+        "radius": 40,
+        "safeZoneRadius": 60
+      },
+      "town": {
+        "minBuildings": 11,
+        "maxBuildings": 16,
+        "radius": 60,
+        "safeZoneRadius": 80
+      }
+    },
+    "buildingTypes": {
+      "bank": { "width": 8, "depth": 6, "priority": 1 },
+      "store": { "width": 7, "depth": 5, "priority": 2 },
+      "anvil": { "width": 5, "depth": 4, "priority": 3 },
+      "well": { "width": 3, "depth": 3, "priority": 4 },
+      "house": { "width": 6, "depth": 5, "priority": 5 }
+    },
+    "biomeSuitability": {
+      "plains": 1,
+      "valley": 0.95,
+      "forest": 0.8,
+      "tundra": 0.4,
+      "desert": 0.3,
+      "swamp": 0.2,
+      "mountains": 0.15,
+      "lakes": 0,
+      "canyon": 0.3
+    },
+    "landmarks": {
+      "fencesEnabled": true,
+      "fenceDensity": 0.7,
+      "fencePostHeight": 1.2,
+      "lamppostsInVillages": true,
+      "lamppostSpacing": 15,
+      "marketStallsEnabled": true,
+      "decorationsEnabled": true
+    }
+  },
+  "roads": {
+    "roadWidth": 6,
+    "pathStepSize": 20,
+    "maxPathIterations": 10000,
+    "extraConnectionsRatio": 0.25,
+    "smoothingIterations": 2,
+    "noiseDisplacementScale": 0.01,
+    "noiseDisplacementStrength": 3,
+    "minPointSpacing": 4,
+    "costBiomeMultipliers": {
+      "plains": 1,
+      "valley": 1,
+      "forest": 1,
+      "tundra": 1.5,
+      "desert": 2,
+      "swamp": 2.5,
+      "mountains": 3,
+      "lakes": 100,
+      "canyon": 2
+    },
+    "costBase": 1,
+    "costSlopeMultiplier": 5,
+    "costWaterPenalty": 1000,
+    "heuristicWeight": 2.5
+  },
+  "seed": 0
+}

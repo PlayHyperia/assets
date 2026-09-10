@@ -51,7 +51,7 @@ manifests/
 
 ## tier-requirements.json
 
-**Single source of truth** for OSRS-accurate tier-based level requirements. Items reference their `tier` (e.g., "bronze", "steel") and the system looks up requirements here.
+**Single source of truth** for rules-consistent tier-based level requirements. Items reference their `tier` (e.g., "bronze", "steel") and the system looks up requirements here.
 
 ### Schema
 
@@ -401,7 +401,7 @@ interface GatheringResource {
   secondaryRequired?: string;       // Consumable (e.g., "fishing_bait")
   levelRequired: number;            // Minimum skill level
 
-  // Timing (OSRS ticks, 1 tick = 600ms)
+  // Timing (600 ms game ticks, 1 tick = 600ms)
   baseCycleTicks: number;           // Ticks between harvest attempts
   depleteChance: number;            // 0-1 chance to deplete per success
   respawnTicks: number;             // Ticks until respawn
@@ -418,7 +418,7 @@ interface HarvestYield {
   xpAmount: number;
   stackable: boolean;
 
-  // Fishing-specific (OSRS catch formula)
+  // Fishing-specific (the canonical catch formula)
   levelRequired?: number;           // Level to catch this fish
   catchLow?: number;                // Low roll threshold
   catchHigh?: number;               // High roll threshold
@@ -487,12 +487,12 @@ interface HarvestYield {
 
 ### gathering/fishing.json
 
-Fishing spots use OSRS-accurate catch rates with `catchLow`/`catchHigh` thresholds.
+Fishing spots use rules-consistent catch rates with `catchLow`/`catchHigh` thresholds.
 
 ```json
 {
   "$schema": "../schemas/gathering-fishing.schema.json",
-  "_comment": "Fishing resource data. Spots with OSRS-accurate catch rates.",
+  "_comment": "Fishing resource data. Spots with rules-consistent catch rates.",
   "spots": [
     {
       "id": "fishing_spot_fly",
@@ -539,7 +539,7 @@ Fishing spots use OSRS-accurate catch rates with `catchLow`/`catchHigh` threshol
 
 ## recipes/ Directory
 
-Processing recipes for skills. All use OSRS-accurate tick timing.
+Processing recipes for skills. All use rules-consistent tick timing.
 
 ### recipes/smelting.json
 
@@ -1038,7 +1038,7 @@ interface FishingConfig {
     "central_haven": {
       "id": "central_haven",
       "name": "Central Haven",
-      "description": "The central hub of Hyperscape",
+      "description": "The central hub of Hyperia",
       "difficultyLevel": 0,
       "bounds": { "minX": -150, "maxX": 150, "minZ": -150, "maxZ": 150 },
       "biomeType": "starter_town",
@@ -1241,7 +1241,7 @@ interface MusicTrack {
 
 ## Tick Timing Reference
 
-All timing uses OSRS-style game ticks (1 tick = 600ms):
+All timing uses fixed game ticks (1 tick = 600ms):
 
 | Action | Typical Ticks | Real Time |
 |--------|---------------|-----------|

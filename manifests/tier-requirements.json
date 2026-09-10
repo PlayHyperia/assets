@@ -1,6 +1,6 @@
 {
   "$schema": "./tier-requirements.schema.json",
-  "_comment": "OSRS-accurate tier-based level requirements. Single source of truth for equipment and tool levels.",
+  "_comment": "rules-consistent tier-based level requirements. Single source of truth for equipment and tool levels.",
   "melee": {
     "bronze": {
       "attack": 1,

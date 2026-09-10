@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-06T17:04:02.340Z",
+  "generatedAt": "2026-09-05T08:27:28.046Z",
   "tileSize": 1,
   "models": [
     {
@@ -149,6 +149,206 @@
       },
       "footprint": {
         "width": 2,
+        "depth": 1
+      }
+    },
+    {
+      "id": "candidates/semantic-grip-certification",
+      "assetPath": "asset://models/candidates/semantic-grip-certification/shortbow.glb",
+      "bounds": {
+        "min": {
+          "x": -0.06709200143814087,
+          "y": -1.0020740032196045,
+          "z": -0.30796000361442566
+        },
+        "max": {
+          "x": 0.06343100219964981,
+          "y": 1.0011390447616577,
+          "z": 0.30486100912094116
+        }
+      },
+      "dimensions": {
+        "x": 0.13052300363779068,
+        "y": 2.003213047981262,
+        "z": 0.6128210127353668
+      },
+      "footprint": {
+        "width": 1,
+        "depth": 1
+      }
+    },
+    {
+      "id": "candidates/semantic-grip-certification",
+      "assetPath": "asset://models/candidates/semantic-grip-certification/bronze_scimitar.glb",
+      "bounds": {
+        "min": {
+          "x": -0.26455000042915344,
+          "y": -0.9568681120872498,
+          "z": -0.07726294547319412
+        },
+        "max": {
+          "x": 0.2630319893360138,
+          "y": 0.9549111127853394,
+          "z": 0.0751800686120987
+        }
+      },
+      "dimensions": {
+        "x": 0.5275819897651672,
+        "y": 1.9117792248725891,
+        "z": 0.15244301408529282
+      },
+      "footprint": {
+        "width": 1,
+        "depth": 1
+      }
+    },
+    {
+      "id": "candidates/semantic-grip-certification",
+      "assetPath": "asset://models/candidates/semantic-grip-certification/bronze_shortsword.glb",
+      "bounds": {
+        "min": {
+          "x": -0.22082099318504333,
+          "y": -0.9551669955253601,
+          "z": -0.08666907250881195
+        },
+        "max": {
+          "x": 0.2191379964351654,
+          "y": 0.954941987991333,
+          "z": 0.08496692776679993
+        }
+      },
+      "dimensions": {
+        "x": 0.43995898962020874,
+        "y": 1.9101089835166931,
+        "z": 0.17163600027561188
+      },
+      "footprint": {
+        "width": 1,
+        "depth": 1
+      }
+    },
+    {
+      "id": "candidates/semantic-grip-certification",
+      "assetPath": "asset://models/candidates/semantic-grip-certification/magic_shortbow.glb",
+      "bounds": {
+        "min": {
+          "x": -0.06709200143814087,
+          "y": -1.0020740032196045,
+          "z": -0.30796000361442566
+        },
+        "max": {
+          "x": 0.06343100219964981,
+          "y": 1.0011390447616577,
+          "z": 0.30486100912094116
+        }
+      },
+      "dimensions": {
+        "x": 0.13052300363779068,
+        "y": 2.003213047981262,
+        "z": 0.6128210127353668
+      },
+      "footprint": {
+        "width": 1,
+        "depth": 1
+      }
+    },
+    {
+      "id": "candidates/semantic-grip-certification",
+      "assetPath": "asset://models/candidates/semantic-grip-certification/staff_of_air.glb",
+      "bounds": {
+        "min": {
+          "x": -0.12639230489730835,
+          "y": -1,
+          "z": -0.10626552253961563
+        },
+        "max": {
+          "x": 0.12639230489730835,
+          "y": 1,
+          "z": 0.10626552253961563
+        }
+      },
+      "dimensions": {
+        "x": 0.2527846097946167,
+        "y": 2,
+        "z": 0.21253104507923126
+      },
+      "footprint": {
+        "width": 1,
+        "depth": 1
+      }
+    },
+    {
+      "id": "candidates/semantic-grip-certification",
+      "assetPath": "asset://models/candidates/semantic-grip-certification/bronze_longsword.glb",
+      "bounds": {
+        "min": {
+          "x": -0.1847579926252365,
+          "y": -0.9558519721031189,
+          "z": -0.08811003714799881
+        },
+        "max": {
+          "x": 0.182778999209404,
+          "y": 0.9551060199737549,
+          "z": 0.08589496463537216
+        }
+      },
+      "dimensions": {
+        "x": 0.3675369918346405,
+        "y": 1.9109579920768738,
+        "z": 0.17400500178337097
+      },
+      "footprint": {
+        "width": 1,
+        "depth": 1
+      }
+    },
+    {
+      "id": "candidates/kaykit-shortsword-contact-20260905",
+      "assetPath": "asset://models/candidates/kaykit-shortsword-contact-20260905/preserved-installed-fit.glb",
+      "bounds": {
+        "min": {
+          "x": -0.251718670129776,
+          "y": -0.36576569080352783,
+          "z": -0.06531673669815063
+        },
+        "max": {
+          "x": 0.2517259120941162,
+          "y": 1.4094958305358887,
+          "z": 0.06531671434640884
+        }
+      },
+      "dimensions": {
+        "x": 0.5034445822238922,
+        "y": 1.7752615213394165,
+        "z": 0.13063345104455948
+      },
+      "footprint": {
+        "width": 1,
+        "depth": 1
+      }
+    },
+    {
+      "id": "candidates/kaykit-shortsword-contact-20260905",
+      "assetPath": "asset://models/candidates/kaykit-shortsword-contact-20260905/authored-socket-surface-seated-candidate.glb",
+      "bounds": {
+        "min": {
+          "x": -0.251718670129776,
+          "y": -0.36576569080352783,
+          "z": -0.06531673669815063
+        },
+        "max": {
+          "x": 0.2517259120941162,
+          "y": 1.4094958305358887,
+          "z": 0.06531671434640884
+        }
+      },
+      "dimensions": {
+        "x": 0.5034445822238922,
+        "y": 1.7752615213394165,
+        "z": 0.13063345104455948
+      },
+      "footprint": {
+        "width": 1,
         "depth": 1
       }
     },
@@ -653,6 +853,206 @@
       }
     },
     {
+      "id": "bows/bow-wood/candidates",
+      "assetPath": "asset://models/bows/bow-wood/candidates/shortbow-stable-hand-anchor-candidate.glb",
+      "bounds": {
+        "min": {
+          "x": -0.06709200143814087,
+          "y": -1.0020740032196045,
+          "z": -0.30796000361442566
+        },
+        "max": {
+          "x": 0.06343100219964981,
+          "y": 1.0011390447616577,
+          "z": 0.30486100912094116
+        }
+      },
+      "dimensions": {
+        "x": 0.13052300363779068,
+        "y": 2.003213047981262,
+        "z": 0.6128210127353668
+      },
+      "footprint": {
+        "width": 1,
+        "depth": 1
+      }
+    },
+    {
+      "id": "bows/bow-wood/candidates",
+      "assetPath": "asset://models/bows/bow-wood/candidates/magic-shortbow-semantic-grip-candidate.glb",
+      "bounds": {
+        "min": {
+          "x": -0.06709200143814087,
+          "y": -1.0020740032196045,
+          "z": -0.30796000361442566
+        },
+        "max": {
+          "x": 0.06343100219964981,
+          "y": 1.0011390447616577,
+          "z": 0.30486100912094116
+        }
+      },
+      "dimensions": {
+        "x": 0.13052300363779068,
+        "y": 2.003213047981262,
+        "z": 0.6128210127353668
+      },
+      "footprint": {
+        "width": 1,
+        "depth": 1
+      }
+    },
+    {
+      "id": "bows/bow-wood/candidates",
+      "assetPath": "asset://models/bows/bow-wood/candidates/magic-shortbow-preserved-fit.glb",
+      "bounds": {
+        "min": {
+          "x": -0.06709200143814087,
+          "y": -1.0020740032196045,
+          "z": -0.30796000361442566
+        },
+        "max": {
+          "x": 0.06343100219964981,
+          "y": 1.0011390447616577,
+          "z": 0.30486100912094116
+        }
+      },
+      "dimensions": {
+        "x": 0.13052300363779068,
+        "y": 2.003213047981262,
+        "z": 0.6128210127353668
+      },
+      "footprint": {
+        "width": 1,
+        "depth": 1
+      }
+    },
+    {
+      "id": "bows/bow-wood/candidates",
+      "assetPath": "asset://models/bows/bow-wood/candidates/magic-shortbow-stable-hand-anchor-candidate.glb",
+      "bounds": {
+        "min": {
+          "x": -0.06709200143814087,
+          "y": -1.0020740032196045,
+          "z": -0.30796000361442566
+        },
+        "max": {
+          "x": 0.06343100219964981,
+          "y": 1.0011390447616577,
+          "z": 0.30486100912094116
+        }
+      },
+      "dimensions": {
+        "x": 0.13052300363779068,
+        "y": 2.003213047981262,
+        "z": 0.6128210127353668
+      },
+      "footprint": {
+        "width": 1,
+        "depth": 1
+      }
+    },
+    {
+      "id": "bows/bow-wood/candidates",
+      "assetPath": "asset://models/bows/bow-wood/candidates/shortbow-preserved-fit.glb",
+      "bounds": {
+        "min": {
+          "x": -0.06709200143814087,
+          "y": -1.0020740032196045,
+          "z": -0.30796000361442566
+        },
+        "max": {
+          "x": 0.06343100219964981,
+          "y": 1.0011390447616577,
+          "z": 0.30486100912094116
+        }
+      },
+      "dimensions": {
+        "x": 0.13052300363779068,
+        "y": 2.003213047981262,
+        "z": 0.6128210127353668
+      },
+      "footprint": {
+        "width": 1,
+        "depth": 1
+      }
+    },
+    {
+      "id": "bows/bow-wood/candidates",
+      "assetPath": "asset://models/bows/bow-wood/candidates/shortbow-semantic-grip-candidate.glb",
+      "bounds": {
+        "min": {
+          "x": -0.06709200143814087,
+          "y": -1.0020740032196045,
+          "z": -0.30796000361442566
+        },
+        "max": {
+          "x": 0.06343100219964981,
+          "y": 1.0011390447616577,
+          "z": 0.30486100912094116
+        }
+      },
+      "dimensions": {
+        "x": 0.13052300363779068,
+        "y": 2.003213047981262,
+        "z": 0.6128210127353668
+      },
+      "footprint": {
+        "width": 1,
+        "depth": 1
+      }
+    },
+    {
+      "id": "bows/bow-wood",
+      "assetPath": "asset://models/bows/bow-wood/shortbow-steve-fitted.glb",
+      "bounds": {
+        "min": {
+          "x": -0.06709200143814087,
+          "y": -1.0020740032196045,
+          "z": -0.30796000361442566
+        },
+        "max": {
+          "x": 0.06343100219964981,
+          "y": 1.0011390447616577,
+          "z": 0.30486100912094116
+        }
+      },
+      "dimensions": {
+        "x": 0.13052300363779068,
+        "y": 2.003213047981262,
+        "z": 0.6128210127353668
+      },
+      "footprint": {
+        "width": 1,
+        "depth": 1
+      }
+    },
+    {
+      "id": "bows/bow-wood",
+      "assetPath": "asset://models/bows/bow-wood/magic-shortbow-steve-fitted.glb",
+      "bounds": {
+        "min": {
+          "x": -0.06709200143814087,
+          "y": -1.0020740032196045,
+          "z": -0.30796000361442566
+        },
+        "max": {
+          "x": 0.06343100219964981,
+          "y": 1.0011390447616577,
+          "z": 0.30486100912094116
+        }
+      },
+      "dimensions": {
+        "x": 0.13052300363779068,
+        "y": 2.003213047981262,
+        "z": 0.6128210127353668
+      },
+      "footprint": {
+        "width": 1,
+        "depth": 1
+      }
+    },
+    {
       "id": "bows/bow-wood",
       "assetPath": "asset://models/bows/bow-wood/bow-wood.glb",
       "bounds": {
@@ -1003,6 +1403,31 @@
       }
     },
     {
+      "id": "magic-staffs/air-staff/candidates",
+      "assetPath": "asset://models/magic-staffs/air-staff/candidates/staff-of-air-semantic-grip-candidate.glb",
+      "bounds": {
+        "min": {
+          "x": -0.12887699902057648,
+          "y": -1.003607988357544,
+          "z": -0.10799006372690201
+        },
+        "max": {
+          "x": 0.1285810023546219,
+          "y": 1.0038410425186157,
+          "z": 0.1078079342842102
+        }
+      },
+      "dimensions": {
+        "x": 0.25745800137519836,
+        "y": 2.0074490308761597,
+        "z": 0.2157979980111122
+      },
+      "footprint": {
+        "width": 1,
+        "depth": 1
+      }
+    },
+    {
       "id": "magic-staffs/air-staff",
       "assetPath": "asset://models/magic-staffs/air-staff/air-staff.glb",
       "bounds": {
@@ -1046,6 +1471,506 @@
         "x": 0.25745800137519836,
         "y": 2.0074490308761597,
         "z": 0.2157979980111122
+      },
+      "footprint": {
+        "width": 1,
+        "depth": 1
+      }
+    },
+    {
+      "id": "magic-staffs/air-staff",
+      "assetPath": "asset://models/magic-staffs/air-staff/staff-of-air-steve-fitted.glb",
+      "bounds": {
+        "min": {
+          "x": -0.12639230489730835,
+          "y": -1,
+          "z": -0.10626552253961563
+        },
+        "max": {
+          "x": 0.12639230489730835,
+          "y": 1,
+          "z": 0.10626552253961563
+        }
+      },
+      "dimensions": {
+        "x": 0.2527846097946167,
+        "y": 2,
+        "z": 0.21253104507923126
+      },
+      "footprint": {
+        "width": 1,
+        "depth": 1
+      }
+    },
+    {
+      "id": "tools/harpoon",
+      "assetPath": "asset://models/tools/harpoon/harpoon-steve-fitted.glb",
+      "bounds": {
+        "min": {
+          "x": -0.10199999809265137,
+          "y": -0.7799999713897705,
+          "z": -0.09200000017881393
+        },
+        "max": {
+          "x": 0.10199999809265137,
+          "y": 0.7799999713897705,
+          "z": 0.09200000017881393
+        }
+      },
+      "dimensions": {
+        "x": 0.20399999618530273,
+        "y": 1.559999942779541,
+        "z": 0.18400000035762787
+      },
+      "footprint": {
+        "width": 1,
+        "depth": 1
+      }
+    },
+    {
+      "id": "tools/fishing-interactions",
+      "assetPath": "asset://models/tools/fishing-interactions/lobster-pot-world.glb",
+      "bounds": {
+        "min": {
+          "x": -0.09000000357627869,
+          "y": -0.42500001192092896,
+          "z": -0.09000000357627869
+        },
+        "max": {
+          "x": 0.09000000357627869,
+          "y": 0.42500001192092896,
+          "z": 0.09000000357627869
+        }
+      },
+      "dimensions": {
+        "x": 0.18000000715255737,
+        "y": 0.8500000238418579,
+        "z": 0.18000000715255737
+      },
+      "footprint": {
+        "width": 1,
+        "depth": 1
+      }
+    },
+    {
+      "id": "tools/fishing-interactions",
+      "assetPath": "asset://models/tools/fishing-interactions/fly-fishing-rod-steve-fitted.glb",
+      "bounds": {
+        "min": {
+          "x": -0.35738301277160645,
+          "y": -1.3878179788589478,
+          "z": -0.3564389944076538
+        },
+        "max": {
+          "x": 0.1130409985780716,
+          "y": 4.950049877166748,
+          "z": 0.14006200432777405
+        }
+      },
+      "dimensions": {
+        "x": 0.47042401134967804,
+        "y": 6.337867856025696,
+        "z": 0.49650099873542786
+      },
+      "footprint": {
+        "width": 1,
+        "depth": 1
+      }
+    },
+    {
+      "id": "tools/fishing-interactions",
+      "assetPath": "asset://models/tools/fishing-interactions/small-fishing-net-world.glb",
+      "bounds": {
+        "min": {
+          "x": -0.3840000033378601,
+          "y": -0.3840000033378601,
+          "z": -0.03200000151991844
+        },
+        "max": {
+          "x": 0.3840000033378601,
+          "y": 0.3840000033378601,
+          "z": 0.03200000151991844
+        }
+      },
+      "dimensions": {
+        "x": 0.7680000066757202,
+        "y": 0.7680000066757202,
+        "z": 0.06400000303983688
+      },
+      "footprint": {
+        "width": 1,
+        "depth": 1
+      }
+    },
+    {
+      "id": "tools/fishing-interactions",
+      "assetPath": "asset://models/tools/fishing-interactions/lobster-pot-steve-fitted.glb",
+      "bounds": {
+        "min": {
+          "x": -0.09000000357627869,
+          "y": -0.42500001192092896,
+          "z": -0.09000000357627869
+        },
+        "max": {
+          "x": 0.09000000357627869,
+          "y": 0.42500001192092896,
+          "z": 0.09000000357627869
+        }
+      },
+      "dimensions": {
+        "x": 0.18000000715255737,
+        "y": 0.8500000238418579,
+        "z": 0.18000000715255737
+      },
+      "footprint": {
+        "width": 1,
+        "depth": 1
+      }
+    },
+    {
+      "id": "tools/fishing-interactions",
+      "assetPath": "asset://models/tools/fishing-interactions/small-fishing-net-steve-fitted.glb",
+      "bounds": {
+        "min": {
+          "x": -0.3840000033378601,
+          "y": -0.3840000033378601,
+          "z": -0.03200000151991844
+        },
+        "max": {
+          "x": 0.3840000033378601,
+          "y": 0.3840000033378601,
+          "z": 0.03200000151991844
+        }
+      },
+      "dimensions": {
+        "x": 0.7680000066757202,
+        "y": 0.7680000066757202,
+        "z": 0.06400000303983688
+      },
+      "footprint": {
+        "width": 1,
+        "depth": 1
+      }
+    },
+    {
+      "id": "tools/preparation",
+      "assetPath": "asset://models/tools/preparation/adamant-hatchet-steve-fitted.glb",
+      "bounds": {
+        "min": {
+          "x": -0.42618483304977417,
+          "y": -0.28473007678985596,
+          "z": -0.11220886558294296
+        },
+        "max": {
+          "x": 0.19687025249004364,
+          "y": 0.7697214484214783,
+          "z": 0.11220929771661758
+        }
+      },
+      "dimensions": {
+        "x": 0.6230550855398178,
+        "y": 1.0544515252113342,
+        "z": 0.22441816329956055
+      },
+      "footprint": {
+        "width": 1,
+        "depth": 1
+      }
+    },
+    {
+      "id": "tools/preparation",
+      "assetPath": "asset://models/tools/preparation/bronze-pickaxe-steve-fitted.glb",
+      "bounds": {
+        "min": {
+          "x": -0.7242418527603149,
+          "y": -0.22490279376506805,
+          "z": -0.10420479625463486
+        },
+        "max": {
+          "x": 0.7241833806037903,
+          "y": 1.160451054573059,
+          "z": 0.10420478135347366
+        }
+      },
+      "dimensions": {
+        "x": 1.4484252333641052,
+        "y": 1.3853538483381271,
+        "z": 0.20840957760810852
+      },
+      "footprint": {
+        "width": 1,
+        "depth": 1
+      }
+    },
+    {
+      "id": "tools/preparation",
+      "assetPath": "asset://models/tools/preparation/steel-pickaxe-steve-fitted.glb",
+      "bounds": {
+        "min": {
+          "x": -0.7242418527603149,
+          "y": -0.22490279376506805,
+          "z": -0.10420479625463486
+        },
+        "max": {
+          "x": 0.7241833806037903,
+          "y": 1.160451054573059,
+          "z": 0.10420478135347366
+        }
+      },
+      "dimensions": {
+        "x": 1.4484252333641052,
+        "y": 1.3853538483381271,
+        "z": 0.20840957760810852
+      },
+      "footprint": {
+        "width": 1,
+        "depth": 1
+      }
+    },
+    {
+      "id": "tools/preparation",
+      "assetPath": "asset://models/tools/preparation/rune-pickaxe-steve-fitted.glb",
+      "bounds": {
+        "min": {
+          "x": -0.7242418527603149,
+          "y": -0.22490279376506805,
+          "z": -0.10420479625463486
+        },
+        "max": {
+          "x": 0.7241833806037903,
+          "y": 1.160451054573059,
+          "z": 0.10420478135347366
+        }
+      },
+      "dimensions": {
+        "x": 1.4484252333641052,
+        "y": 1.3853538483381271,
+        "z": 0.20840957760810852
+      },
+      "footprint": {
+        "width": 1,
+        "depth": 1
+      }
+    },
+    {
+      "id": "tools/preparation",
+      "assetPath": "asset://models/tools/preparation/mithril-pickaxe-steve-fitted.glb",
+      "bounds": {
+        "min": {
+          "x": -0.7242418527603149,
+          "y": -0.22490279376506805,
+          "z": -0.10420479625463486
+        },
+        "max": {
+          "x": 0.7241833806037903,
+          "y": 1.160451054573059,
+          "z": 0.10420478135347366
+        }
+      },
+      "dimensions": {
+        "x": 1.4484252333641052,
+        "y": 1.3853538483381271,
+        "z": 0.20840957760810852
+      },
+      "footprint": {
+        "width": 1,
+        "depth": 1
+      }
+    },
+    {
+      "id": "tools/preparation",
+      "assetPath": "asset://models/tools/preparation/fishing-rod-steve-fitted.glb",
+      "bounds": {
+        "min": {
+          "x": -0.1041869968175888,
+          "y": -1.3878179788589478,
+          "z": -0.3771530091762543
+        },
+        "max": {
+          "x": 0.1041869968175888,
+          "y": 4.9169840812683105,
+          "z": 0.1997230052947998
+        }
+      },
+      "dimensions": {
+        "x": 0.2083739936351776,
+        "y": 6.304802060127258,
+        "z": 0.5768760144710541
+      },
+      "footprint": {
+        "width": 1,
+        "depth": 1
+      }
+    },
+    {
+      "id": "tools/preparation",
+      "assetPath": "asset://models/tools/preparation/iron-hatchet-steve-fitted.glb",
+      "bounds": {
+        "min": {
+          "x": -0.42618483304977417,
+          "y": -0.28473007678985596,
+          "z": -0.11220886558294296
+        },
+        "max": {
+          "x": 0.19687025249004364,
+          "y": 0.7697214484214783,
+          "z": 0.11220929771661758
+        }
+      },
+      "dimensions": {
+        "x": 0.6230550855398178,
+        "y": 1.0544515252113342,
+        "z": 0.22441816329956055
+      },
+      "footprint": {
+        "width": 1,
+        "depth": 1
+      }
+    },
+    {
+      "id": "tools/preparation",
+      "assetPath": "asset://models/tools/preparation/iron-pickaxe-steve-fitted.glb",
+      "bounds": {
+        "min": {
+          "x": -0.7242418527603149,
+          "y": -0.22490279376506805,
+          "z": -0.10420479625463486
+        },
+        "max": {
+          "x": 0.7241833806037903,
+          "y": 1.160451054573059,
+          "z": 0.10420478135347366
+        }
+      },
+      "dimensions": {
+        "x": 1.4484252333641052,
+        "y": 1.3853538483381271,
+        "z": 0.20840957760810852
+      },
+      "footprint": {
+        "width": 1,
+        "depth": 1
+      }
+    },
+    {
+      "id": "tools/preparation",
+      "assetPath": "asset://models/tools/preparation/mithril-hatchet-steve-fitted.glb",
+      "bounds": {
+        "min": {
+          "x": -0.42618483304977417,
+          "y": -0.28473007678985596,
+          "z": -0.11220886558294296
+        },
+        "max": {
+          "x": 0.19687025249004364,
+          "y": 0.7697214484214783,
+          "z": 0.11220929771661758
+        }
+      },
+      "dimensions": {
+        "x": 0.6230550855398178,
+        "y": 1.0544515252113342,
+        "z": 0.22441816329956055
+      },
+      "footprint": {
+        "width": 1,
+        "depth": 1
+      }
+    },
+    {
+      "id": "tools/preparation",
+      "assetPath": "asset://models/tools/preparation/rune-hatchet-steve-fitted.glb",
+      "bounds": {
+        "min": {
+          "x": -0.42618483304977417,
+          "y": -0.28473007678985596,
+          "z": -0.11220886558294296
+        },
+        "max": {
+          "x": 0.19687025249004364,
+          "y": 0.7697214484214783,
+          "z": 0.11220929771661758
+        }
+      },
+      "dimensions": {
+        "x": 0.6230550855398178,
+        "y": 1.0544515252113342,
+        "z": 0.22441816329956055
+      },
+      "footprint": {
+        "width": 1,
+        "depth": 1
+      }
+    },
+    {
+      "id": "tools/preparation",
+      "assetPath": "asset://models/tools/preparation/steel-hatchet-steve-fitted.glb",
+      "bounds": {
+        "min": {
+          "x": -0.42618483304977417,
+          "y": -0.28473007678985596,
+          "z": -0.11220886558294296
+        },
+        "max": {
+          "x": 0.19687025249004364,
+          "y": 0.7697214484214783,
+          "z": 0.11220929771661758
+        }
+      },
+      "dimensions": {
+        "x": 0.6230550855398178,
+        "y": 1.0544515252113342,
+        "z": 0.22441816329956055
+      },
+      "footprint": {
+        "width": 1,
+        "depth": 1
+      }
+    },
+    {
+      "id": "tools/preparation",
+      "assetPath": "asset://models/tools/preparation/bronze-hatchet-steve-fitted.glb",
+      "bounds": {
+        "min": {
+          "x": -0.42618483304977417,
+          "y": -0.28473007678985596,
+          "z": -0.11220886558294296
+        },
+        "max": {
+          "x": 0.19687025249004364,
+          "y": 0.7697214484214783,
+          "z": 0.11220929771661758
+        }
+      },
+      "dimensions": {
+        "x": 0.6230550855398178,
+        "y": 1.0544515252113342,
+        "z": 0.22441816329956055
+      },
+      "footprint": {
+        "width": 1,
+        "depth": 1
+      }
+    },
+    {
+      "id": "tools/preparation",
+      "assetPath": "asset://models/tools/preparation/adamant-pickaxe-steve-fitted.glb",
+      "bounds": {
+        "min": {
+          "x": -0.7242418527603149,
+          "y": -0.22490279376506805,
+          "z": -0.10420479625463486
+        },
+        "max": {
+          "x": 0.7241833806037903,
+          "y": 1.160451054573059,
+          "z": 0.10420478135347366
+        }
+      },
+      "dimensions": {
+        "x": 1.4484252333641052,
+        "y": 1.3853538483381271,
+        "z": 0.20840957760810852
       },
       "footprint": {
         "width": 1,
@@ -5578,6 +6503,31 @@
       }
     },
     {
+      "id": "swords/2h-swords/candidates",
+      "assetPath": "asset://models/swords/2h-swords/candidates/2h-sword-bronze-semantic-grip-candidate.glb",
+      "bounds": {
+        "min": {
+          "x": -0.15617400407791138,
+          "y": -0.9548360109329224,
+          "z": -0.05824606865644455
+        },
+        "max": {
+          "x": 0.15437200665473938,
+          "y": 0.9555050134658813,
+          "z": 0.05702393129467964
+        }
+      },
+      "dimensions": {
+        "x": 0.31054601073265076,
+        "y": 1.9103410243988037,
+        "z": 0.11526999995112419
+      },
+      "footprint": {
+        "width": 1,
+        "depth": 1
+      }
+    },
+    {
       "id": "swords/2h-swords",
       "assetPath": "asset://models/swords/2h-swords/2h-sword-bronze-aligned.glb",
       "bounds": {
@@ -5621,6 +6571,31 @@
         "x": 0.31091199815273285,
         "y": 1.9120532274246216,
         "z": 0.11564501374959946
+      },
+      "footprint": {
+        "width": 1,
+        "depth": 1
+      }
+    },
+    {
+      "id": "swords/2h-swords",
+      "assetPath": "asset://models/swords/2h-swords/2h-sword-bronze-steve-fitted.glb",
+      "bounds": {
+        "min": {
+          "x": -0.15617400407791138,
+          "y": -0.9548360109329224,
+          "z": -0.05824606865644455
+        },
+        "max": {
+          "x": 0.15437200665473938,
+          "y": 0.9555050134658813,
+          "z": 0.05702393129467964
+        }
+      },
+      "dimensions": {
+        "x": 0.31054601073265076,
+        "y": 1.9103410243988037,
+        "z": 0.11526999995112419
       },
       "footprint": {
         "width": 1,
@@ -6875,6 +7850,156 @@
       "footprint": {
         "width": 1,
         "depth": 2
+      }
+    },
+    {
+      "id": "duel-kaykit",
+      "assetPath": "asset://models/duel-kaykit/bronze-scimitar-fitted.glb",
+      "bounds": {
+        "min": {
+          "x": -0.251718670129776,
+          "y": -0.36576569080352783,
+          "z": -0.06531673669815063
+        },
+        "max": {
+          "x": 0.2517259120941162,
+          "y": 1.4094958305358887,
+          "z": 0.06531671434640884
+        }
+      },
+      "dimensions": {
+        "x": 0.5034445822238922,
+        "y": 1.7752615213394165,
+        "z": 0.13063345104455948
+      },
+      "footprint": {
+        "width": 1,
+        "depth": 1
+      }
+    },
+    {
+      "id": "duel-kaykit",
+      "assetPath": "asset://models/duel-kaykit/shortbow-fitted.glb",
+      "bounds": {
+        "min": {
+          "x": -0.36619606614112854,
+          "y": -0.07779943197965622,
+          "z": -0.9918521642684937
+        },
+        "max": {
+          "x": 0.12819603085517883,
+          "y": 0.07779941707849503,
+          "z": 0.9918521642684937
+        }
+      },
+      "dimensions": {
+        "x": 0.4943920969963074,
+        "y": 0.15559884905815125,
+        "z": 1.9837043285369873
+      },
+      "footprint": {
+        "width": 1,
+        "depth": 2
+      }
+    },
+    {
+      "id": "duel-kaykit",
+      "assetPath": "asset://models/duel-kaykit/bronze-longsword-fitted.glb",
+      "bounds": {
+        "min": {
+          "x": -0.251718670129776,
+          "y": -0.36576569080352783,
+          "z": -0.06531673669815063
+        },
+        "max": {
+          "x": 0.2517259120941162,
+          "y": 1.4094958305358887,
+          "z": 0.06531671434640884
+        }
+      },
+      "dimensions": {
+        "x": 0.5034445822238922,
+        "y": 1.7752615213394165,
+        "z": 0.13063345104455948
+      },
+      "footprint": {
+        "width": 1,
+        "depth": 1
+      }
+    },
+    {
+      "id": "duel-kaykit",
+      "assetPath": "asset://models/duel-kaykit/bronze-2h-sword-fitted.glb",
+      "bounds": {
+        "min": {
+          "x": -0.41951078176498413,
+          "y": -0.4013613760471344,
+          "z": -0.12400994449853897
+        },
+        "max": {
+          "x": 0.41951784491539,
+          "y": 1.9644392728805542,
+          "z": 0.12400980293750763
+        }
+      },
+      "dimensions": {
+        "x": 0.8390286266803741,
+        "y": 2.3658006489276886,
+        "z": 0.2480197474360466
+      },
+      "footprint": {
+        "width": 1,
+        "depth": 1
+      }
+    },
+    {
+      "id": "duel-kaykit",
+      "assetPath": "asset://models/duel-kaykit/bronze-shortsword-fitted.glb",
+      "bounds": {
+        "min": {
+          "x": -0.251718670129776,
+          "y": -0.36576569080352783,
+          "z": -0.06531673669815063
+        },
+        "max": {
+          "x": 0.2517259120941162,
+          "y": 1.4094958305358887,
+          "z": 0.06531671434640884
+        }
+      },
+      "dimensions": {
+        "x": 0.5034445822238922,
+        "y": 1.7752615213394165,
+        "z": 0.13063345104455948
+      },
+      "footprint": {
+        "width": 1,
+        "depth": 1
+      }
+    },
+    {
+      "id": "duel-kaykit",
+      "assetPath": "asset://models/duel-kaykit/staff-of-air-fitted.glb",
+      "bounds": {
+        "min": {
+          "x": -0.24536745250225067,
+          "y": -0.9004455804824829,
+          "z": -0.14617255330085754
+        },
+        "max": {
+          "x": 0.330841988325119,
+          "y": 1.2542541027069092,
+          "z": 0.14617252349853516
+        }
+      },
+      "dimensions": {
+        "x": 0.5762094408273697,
+        "y": 2.154699683189392,
+        "z": 0.2923450767993927
+      },
+      "footprint": {
+        "width": 1,
+        "depth": 1
       }
     },
     {

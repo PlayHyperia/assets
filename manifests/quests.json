@@ -306,7 +306,7 @@
     "replayable": false,
     "requirements": {
       "quests": [],
-      "skills": {},
+      "skills": { "crafting": 7 },
       "items": []
     },
     "startNpc": "crafting_supplier",
@@ -363,7 +363,7 @@
     "replayable": false,
     "requirements": {
       "quests": [],
-      "skills": {},
+      "skills": { "fletching": 5 },
       "items": []
     },
     "startNpc": "bowyer",
@@ -406,7 +406,7 @@
       "items": [
         { "itemId": "knife", "quantity": 1 },
         { "itemId": "logs", "quantity": 2 },
-        { "itemId": "feather", "quantity": 15 },
+        { "itemId": "feathers", "quantity": 15 },
         { "itemId": "bowstring", "quantity": 1 }
       ],
       "dialogue": "quest_accepted"

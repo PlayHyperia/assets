@@ -1,6 +1,6 @@
 {
   "$schema": "../schemas/gathering-fishing.schema.json",
-  "_comment": "Fishing resource data. Spots and their fish catches with OSRS-accurate catch rates. Split from resources.json for organizational consistency with recipes/.",
+  "_comment": "Fishing resource data. Spots and their fish catches with rules-consistent catch rates. Split from resources.json for organizational consistency with recipes/.",
   "spots": [
     {
       "id": "fishing_spot_net",

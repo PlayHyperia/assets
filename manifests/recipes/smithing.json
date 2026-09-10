@@ -1,6 +1,6 @@
 {
   "$schema": "../smithing.schema.json",
-  "_comment": "OSRS-accurate smithing recipes. Anvil crafting with metal bars.",
+  "_comment": "rules-consistent smithing recipes. Anvil crafting with metal bars.",
   "recipes": [
     {
       "output": "bronze_shortsword",

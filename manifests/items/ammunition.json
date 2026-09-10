@@ -45,8 +45,9 @@
     "examine": "Arrows with iron heads.",
     "tradeable": true,
     "rarity": "common",
-    "modelPath": null,
-    "iconPath": "asset://icons/iron-arrow.png",
+    "modelPath": "asset://models/arrows/arrows-base/arrows-base.glb",
+    "equippedModelPath": "asset://models/arrows/arrows-base/arrows-base.glb",
+    "iconPath": "asset://icons/arrows-base.png",
     "bonuses": {
       "rangedStrength": 10
     },
@@ -77,7 +78,8 @@
     "tradeable": true,
     "rarity": "common",
     "modelPath": null,
-    "iconPath": "asset://icons/steel-arrow.png",
+    "equippedModelPath": null,
+    "iconPath": "asset://icons/arrows-base.png",
     "bonuses": {
       "rangedStrength": 16
     },
@@ -108,7 +110,8 @@
     "tradeable": true,
     "rarity": "uncommon",
     "modelPath": null,
-    "iconPath": "asset://icons/mithril-arrow.png",
+    "equippedModelPath": null,
+    "iconPath": "asset://icons/arrows-base.png",
     "bonuses": {
       "rangedStrength": 22
     },
@@ -139,7 +142,8 @@
     "tradeable": true,
     "rarity": "uncommon",
     "modelPath": null,
-    "iconPath": "asset://icons/adamant-arrow.png",
+    "equippedModelPath": null,
+    "iconPath": "asset://icons/arrows-base.png",
     "bonuses": {
       "rangedStrength": 31
     },
@@ -170,7 +174,8 @@
     "tradeable": true,
     "rarity": "rare",
     "modelPath": null,
-    "iconPath": "asset://icons/rune-arrow.png",
+    "equippedModelPath": null,
+    "iconPath": "asset://icons/arrows-base.png",
     "bonuses": {
       "rangedStrength": 49
     },

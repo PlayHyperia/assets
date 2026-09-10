@@ -13,7 +13,7 @@
     "category": "custom",
     "tier": 10,
     "color": "#fa0000",
-    "stylePrompt": "Dragon metal texture, red with matte finish, RuneScape 2007 style"
+    "stylePrompt": "Dragon metal texture, red with matte finish, classic low-poly fantasy style"
   },
   "workflow": "Meshy AI Retexture",
   "baseModelTaskId": "01985e11-3e1b-7e49-84ac-795c2361bc68",
@@ -25,7 +25,7 @@
   "hasConceptArt": true,
   "generatedAt": "2025-07-31T02:11:10.260Z",
   "completedAt": "2025-07-31T02:11:10.260Z",
-  "description": "A RuneScape 2 inspired chainbody",
+  "description": "A classic low-poly fantasy chainbody",
   "isPlaceholder": false,
   "gddCompliant": true,
   "hasSpriteSheet": true,

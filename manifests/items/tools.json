@@ -6,7 +6,7 @@
     "tier": "bronze",
     "tool": {
       "skill": "woodcutting",
-      "priority": 1
+      "priority": 6
     },
     "value": 50,
     "weight": 1,
@@ -33,7 +33,10 @@
       "Use",
       "Drop",
       "Examine"
-    ]
+    ],
+    "gatheringModelPathsByAvatar": {
+      "steve": "asset://models/tools/preparation/bronze-hatchet-steve-fitted.glb"
+    }
   },
   {
     "id": "iron_hatchet",
@@ -42,7 +45,7 @@
     "tier": "iron",
     "tool": {
       "skill": "woodcutting",
-      "priority": 2
+      "priority": 5
     },
     "value": 100,
     "weight": 1,
@@ -69,7 +72,10 @@
       "Use",
       "Drop",
       "Examine"
-    ]
+    ],
+    "gatheringModelPathsByAvatar": {
+      "steve": "asset://models/tools/preparation/iron-hatchet-steve-fitted.glb"
+    }
   },
   {
     "id": "steel_hatchet",
@@ -78,7 +84,7 @@
     "tier": "steel",
     "tool": {
       "skill": "woodcutting",
-      "priority": 3
+      "priority": 4
     },
     "value": 300,
     "weight": 1,
@@ -105,7 +111,10 @@
       "Use",
       "Drop",
       "Examine"
-    ]
+    ],
+    "gatheringModelPathsByAvatar": {
+      "steve": "asset://models/tools/preparation/steel-hatchet-steve-fitted.glb"
+    }
   },
   {
     "id": "mithril_hatchet",
@@ -114,7 +123,7 @@
     "tier": "mithril",
     "tool": {
       "skill": "woodcutting",
-      "priority": 4
+      "priority": 3
     },
     "value": 800,
     "weight": 1,
@@ -141,7 +150,10 @@
       "Use",
       "Drop",
       "Examine"
-    ]
+    ],
+    "gatheringModelPathsByAvatar": {
+      "steve": "asset://models/tools/preparation/mithril-hatchet-steve-fitted.glb"
+    }
   },
   {
     "id": "adamant_hatchet",
@@ -150,7 +162,7 @@
     "tier": "adamant",
     "tool": {
       "skill": "woodcutting",
-      "priority": 5
+      "priority": 2
     },
     "value": 2000,
     "weight": 1,
@@ -177,7 +189,10 @@
       "Use",
       "Drop",
       "Examine"
-    ]
+    ],
+    "gatheringModelPathsByAvatar": {
+      "steve": "asset://models/tools/preparation/adamant-hatchet-steve-fitted.glb"
+    }
   },
   {
     "id": "rune_hatchet",
@@ -186,7 +201,7 @@
     "tier": "rune",
     "tool": {
       "skill": "woodcutting",
-      "priority": 6
+      "priority": 1
     },
     "value": 8000,
     "weight": 1,
@@ -213,7 +228,10 @@
       "Use",
       "Drop",
       "Examine"
-    ]
+    ],
+    "gatheringModelPathsByAvatar": {
+      "steve": "asset://models/tools/preparation/rune-hatchet-steve-fitted.glb"
+    }
   },
   {
     "id": "bronze_pickaxe",
@@ -222,7 +240,7 @@
     "tier": "bronze",
     "tool": {
       "skill": "mining",
-      "priority": 1,
+      "priority": 6,
       "rollTicks": 8
     },
     "value": 50,
@@ -250,7 +268,10 @@
       "Use",
       "Drop",
       "Examine"
-    ]
+    ],
+    "gatheringModelPathsByAvatar": {
+      "steve": "asset://models/tools/preparation/bronze-pickaxe-steve-fitted.glb"
+    }
   },
   {
     "id": "iron_pickaxe",
@@ -259,7 +280,7 @@
     "tier": "iron",
     "tool": {
       "skill": "mining",
-      "priority": 2,
+      "priority": 5,
       "rollTicks": 7
     },
     "value": 100,
@@ -287,7 +308,10 @@
       "Use",
       "Drop",
       "Examine"
-    ]
+    ],
+    "gatheringModelPathsByAvatar": {
+      "steve": "asset://models/tools/preparation/iron-pickaxe-steve-fitted.glb"
+    }
   },
   {
     "id": "steel_pickaxe",
@@ -296,7 +320,7 @@
     "tier": "steel",
     "tool": {
       "skill": "mining",
-      "priority": 3,
+      "priority": 4,
       "rollTicks": 6
     },
     "value": 400,
@@ -324,7 +348,10 @@
       "Use",
       "Drop",
       "Examine"
-    ]
+    ],
+    "gatheringModelPathsByAvatar": {
+      "steve": "asset://models/tools/preparation/steel-pickaxe-steve-fitted.glb"
+    }
   },
   {
     "id": "mithril_pickaxe",
@@ -333,7 +360,7 @@
     "tier": "mithril",
     "tool": {
       "skill": "mining",
-      "priority": 4,
+      "priority": 3,
       "rollTicks": 5
     },
     "value": 1000,
@@ -361,7 +388,10 @@
       "Use",
       "Drop",
       "Examine"
-    ]
+    ],
+    "gatheringModelPathsByAvatar": {
+      "steve": "asset://models/tools/preparation/mithril-pickaxe-steve-fitted.glb"
+    }
   },
   {
     "id": "adamant_pickaxe",
@@ -370,7 +400,7 @@
     "tier": "adamant",
     "tool": {
       "skill": "mining",
-      "priority": 5,
+      "priority": 2,
       "rollTicks": 4
     },
     "value": 3200,
@@ -398,7 +428,10 @@
       "Use",
       "Drop",
       "Examine"
-    ]
+    ],
+    "gatheringModelPathsByAvatar": {
+      "steve": "asset://models/tools/preparation/adamant-pickaxe-steve-fitted.glb"
+    }
   },
   {
     "id": "rune_pickaxe",
@@ -407,7 +440,7 @@
     "tier": "rune",
     "tool": {
       "skill": "mining",
-      "priority": 6,
+      "priority": 1,
       "rollTicks": 3
     },
     "value": 12800,
@@ -435,7 +468,10 @@
       "Use",
       "Drop",
       "Examine"
-    ]
+    ],
+    "gatheringModelPathsByAvatar": {
+      "steve": "asset://models/tools/preparation/rune-pickaxe-steve-fitted.glb"
+    }
   },
   {
     "id": "hammer",
@@ -479,7 +515,7 @@
     "type": "tool",
     "tool": {
       "skill": "fishing",
-      "priority": 2
+      "priority": 1
     },
     "value": 30,
     "weight": 1,
@@ -494,12 +530,19 @@
       "Use",
       "Drop",
       "Examine"
-    ]
+    ],
+    "gatheringModelPathsByAvatar": {
+      "steve": "asset://models/tools/preparation/fishing-rod-steve-fitted.glb"
+    }
   },
   {
     "id": "fly_fishing_rod",
     "name": "Fly Fishing Rod",
     "type": "tool",
+    "tool": {
+      "skill": "fishing",
+      "priority": 1
+    },
     "value": 100,
     "weight": 1,
     "description": "A fly fishing rod for catching trout and salmon",
@@ -512,25 +555,35 @@
       "Use",
       "Drop",
       "Examine"
-    ]
+    ],
+    "gatheringModelPathsByAvatar": {
+      "steve": "asset://models/tools/fishing-interactions/fly-fishing-rod-steve-fitted.glb"
+    }
   },
   {
     "id": "small_fishing_net",
     "name": "Small Fishing Net",
     "type": "tool",
+    "tool": {
+      "skill": "fishing",
+      "priority": 1
+    },
     "value": 5,
     "weight": 0.5,
     "description": "A small net for catching shrimp and anchovies",
     "examine": "A small net used to catch fish in shallow waters.",
     "tradeable": true,
     "rarity": "common",
-    "modelPath": null,
+    "modelPath": "asset://models/tools/fishing-interactions/small-fishing-net-world.glb",
     "iconPath": "asset://icons/small-fishing-net.png",
     "inventoryActions": [
       "Use",
       "Drop",
       "Examine"
-    ]
+    ],
+    "gatheringModelPathsByAvatar": {
+      "steve": "asset://models/tools/fishing-interactions/small-fishing-net-steve-fitted.glb"
+    }
   },
   {
     "id": "harpoon",
@@ -538,7 +591,7 @@
     "type": "tool",
     "tool": {
       "skill": "fishing",
-      "priority": 3
+      "priority": 1
     },
     "value": 45,
     "weight": 1.5,
@@ -547,6 +600,10 @@
     "tradeable": true,
     "rarity": "common",
     "modelPath": null,
+    "equippedModelPath": null,
+    "equippedModelPathsByAvatar": {
+      "steve": "asset://models/tools/harpoon/harpoon-steve-fitted.glb"
+    },
     "iconPath": "asset://icons/harpoon.png",
     "inventoryActions": [
       "Use",
@@ -560,7 +617,7 @@
     "type": "tool",
     "tool": {
       "skill": "fishing",
-      "priority": 3
+      "priority": 1
     },
     "value": 20,
     "weight": 2,
@@ -568,13 +625,16 @@
     "examine": "A cage used to trap lobsters.",
     "tradeable": true,
     "rarity": "common",
-    "modelPath": null,
+    "modelPath": "asset://models/tools/fishing-interactions/lobster-pot-world.glb",
     "iconPath": "asset://icons/lobster-pot.png",
     "inventoryActions": [
       "Use",
       "Drop",
       "Examine"
-    ]
+    ],
+    "gatheringModelPathsByAvatar": {
+      "steve": "asset://models/tools/fishing-interactions/lobster-pot-steve-fitted.glb"
+    }
   },
   {
     "id": "needle",

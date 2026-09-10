@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" role="img" aria-labelledby="title">
+  <title id="title">Bronze longsword</title>
+  <defs>
+    <linearGradient id="blade" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#f3c27a"/>
+      <stop offset="0.48" stop-color="#b86b2f"/>
+      <stop offset="1" stop-color="#6d341d"/>
+    </linearGradient>
+    <linearGradient id="edge" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#ffe1a2"/>
+      <stop offset="1" stop-color="#9a4f27"/>
+    </linearGradient>
+    <filter id="shadow" x="-40%" y="-40%" width="180%" height="180%">
+      <feDropShadow dx="5" dy="7" stdDeviation="6" flood-color="#120b08" flood-opacity="0.7"/>
+    </filter>
+  </defs>
+  <g filter="url(#shadow)" transform="rotate(-45 128 128)">
+    <path d="M117 25 128 8l11 17-4 137h-14z" fill="url(#blade)" stroke="#512817" stroke-width="4"/>
+    <path d="m128 19 4 137h-8z" fill="url(#edge)" opacity="0.9"/>
+    <path d="M75 157h106l-9 19h-88z" fill="#b36b2c" stroke="#4a2719" stroke-width="5"/>
+    <rect x="119" y="171" width="18" height="53" rx="7" fill="#5a3021" stroke="#2f1914" stroke-width="4"/>
+    <path d="M107 222h42l-7 21h-28z" fill="#c47a35" stroke="#4a2719" stroke-width="5"/>
+    <path d="M88 160h80" stroke="#f0b963" stroke-width="4" stroke-linecap="round" opacity="0.75"/>
+  </g>
+</svg>

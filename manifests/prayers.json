@@ -1,6 +1,6 @@
 {
   "$schema": "./prayers.schema.json",
-  "_comment": "OSRS-accurate prayer definitions. drainEffect: higher = faster drain. See https://oldschool.runescape.wiki/w/Prayer",
+  "_comment": "Rules-consistent prayer definitions. drainEffect: higher values drain prayer points faster.",
   "prayers": [
     {
       "id": "thick_skin",

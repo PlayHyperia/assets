@@ -1,6 +1,6 @@
 {
   "$schema": "./skill-unlocks.schema.json",
-  "_comment": "OSRS-accurate skill unlocks for implemented skills. Single source of truth.",
+  "_comment": "rules-consistent skill unlocks for implemented skills. Single source of truth.",
   "skills": {
     "attack": [
       {

@@ -1,7 +1,7 @@
 [
   {
     "id": "intro_1",
-    "name": "Hyperscape Theme I",
+    "name": "Hyperia Theme I",
     "type": "theme",
     "category": "intro",
     "path": "asset://audio/music/intro/1.mp3",
@@ -11,7 +11,7 @@
   },
   {
     "id": "intro_2",
-    "name": "Hyperscape Theme II",
+    "name": "Hyperia Theme II",
     "type": "theme",
     "category": "intro",
     "path": "asset://audio/music/intro/2.mp3",
@@ -28,16 +28,6 @@
     "description": "Peaceful exploration music",
     "duration": 180,
     "mood": "peaceful"
-  },
-  {
-    "id": "normal_2",
-    "name": "Valley Wanderer",
-    "type": "ambient",
-    "category": "normal",
-    "path": "asset://audio/music/normal/2.mp3",
-    "description": "Gentle exploration theme",
-    "duration": 180,
-    "mood": "calm"
   },
   {
     "id": "normal_3",
@@ -80,16 +70,6 @@
     "mood": "serene"
   },
   {
-    "id": "normal_7",
-    "name": "Whispering Woods",
-    "type": "ambient",
-    "category": "normal",
-    "path": "asset://audio/music/normal/7.mp3",
-    "description": "Forest ambience",
-    "duration": 180,
-    "mood": "natural"
-  },
-  {
     "id": "normal_8",
     "name": "Distant Horizons",
     "type": "ambient",
@@ -100,36 +80,6 @@
     "mood": "expansive"
   },
   {
-    "id": "normal_9",
-    "name": "Starlit Journey",
-    "type": "ambient",
-    "category": "normal",
-    "path": "asset://audio/music/normal/9.mp3",
-    "description": "Night exploration music",
-    "duration": 180,
-    "mood": "peaceful"
-  },
-  {
-    "id": "normal_10",
-    "name": "Emerald Glade",
-    "type": "ambient",
-    "category": "normal",
-    "path": "asset://audio/music/normal/10.mp3",
-    "description": "Lush forest theme",
-    "duration": 180,
-    "mood": "vibrant"
-  },
-  {
-    "id": "normal_11",
-    "name": "Mountain Pass",
-    "type": "ambient",
-    "category": "normal",
-    "path": "asset://audio/music/normal/11.mp3",
-    "description": "Highland exploration",
-    "duration": 180,
-    "mood": "majestic"
-  },
-  {
     "id": "normal_12",
     "name": "River's Flow",
     "type": "ambient",
@@ -138,16 +88,6 @@
     "description": "Flowing water theme",
     "duration": 180,
     "mood": "flowing"
-  },
-  {
-    "id": "normal_13",
-    "name": "Sanctuary",
-    "type": "ambient",
-    "category": "normal",
-    "path": "asset://audio/music/normal/13.mp3",
-    "description": "Safe haven music",
-    "duration": 180,
-    "mood": "safe"
   },
   {
     "id": "normal_14",

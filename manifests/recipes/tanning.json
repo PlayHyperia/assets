@@ -1,5 +1,5 @@
 {
-  "_comment": "OSRS-accurate tanning recipes. Cowhide and dragonhide tanning at tanner NPC.",
+  "_comment": "rules-consistent tanning recipes. Cowhide and dragonhide tanning at tanner NPC.",
   "recipes": [
     {
       "input": "cowhide",

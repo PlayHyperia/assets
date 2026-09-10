@@ -1,6 +1,6 @@
 {
   "$schema": "../firemaking.schema.json",
-  "_comment": "OSRS-accurate firemaking data. Log burning levels and XP.",
+  "_comment": "rules-consistent firemaking data. Log burning levels and XP.",
   "recipes": [
     {
       "log": "logs",

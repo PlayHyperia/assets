@@ -17,14 +17,26 @@
     "rarity": "common",
     "modelPath": "asset://models/swords/shortswords/shortsword-bronze.glb",
     "equippedModelPath": "asset://models/swords/shortswords/shortsword-bronze-aligned.glb",
-    "iconPath": "asset://icons/sword-bronze.png",
+    "equippedModelSha256": "062af58e4822b147709cc687656b28188603da75ee0c95f179aa96289e62d8cc",
+    "equippedModelPathsByAvatar": {
+      "kaykit-knight": "asset://models/duel-kaykit/bronze-shortsword-fitted.glb"
+    },
+    "equippedModelSha256ByAvatar": {
+      "kaykit-knight": "683076c44ac972b6c0e57a75733e611b9bb6eca355906a8c37de31ca1779924c"
+    },
+    "iconPath": "asset://icons/shortsword-bronze.svg",
     "bonuses": {
       "attack": 4,
       "strength": 3,
       "defense": 0,
       "ranged": 0
     },
-    "inventoryActions": ["Wield", "Use", "Drop", "Examine"]
+    "inventoryActions": [
+      "Wield",
+      "Use",
+      "Drop",
+      "Examine"
+    ]
   },
   {
     "id": "iron_shortsword",
@@ -51,7 +63,12 @@
       "defense": 0,
       "ranged": 0
     },
-    "inventoryActions": ["Wield", "Use", "Drop", "Examine"]
+    "inventoryActions": [
+      "Wield",
+      "Use",
+      "Drop",
+      "Examine"
+    ]
   },
   {
     "id": "steel_shortsword",
@@ -78,7 +95,12 @@
       "defense": 0,
       "ranged": 0
     },
-    "inventoryActions": ["Wield", "Use", "Drop", "Examine"]
+    "inventoryActions": [
+      "Wield",
+      "Use",
+      "Drop",
+      "Examine"
+    ]
   },
   {
     "id": "mithril_shortsword",
@@ -105,7 +127,12 @@
       "defense": 0,
       "ranged": 0
     },
-    "inventoryActions": ["Wield", "Use", "Drop", "Examine"]
+    "inventoryActions": [
+      "Wield",
+      "Use",
+      "Drop",
+      "Examine"
+    ]
   },
   {
     "id": "adamant_shortsword",
@@ -132,7 +159,12 @@
       "defense": 0,
       "ranged": 0
     },
-    "inventoryActions": ["Wield", "Use", "Drop", "Examine"]
+    "inventoryActions": [
+      "Wield",
+      "Use",
+      "Drop",
+      "Examine"
+    ]
   },
   {
     "id": "rune_shortsword",
@@ -159,9 +191,13 @@
       "defense": 0,
       "ranged": 0
     },
-    "inventoryActions": ["Wield", "Use", "Drop", "Examine"]
+    "inventoryActions": [
+      "Wield",
+      "Use",
+      "Drop",
+      "Examine"
+    ]
   },
-
   {
     "_comment": "=== DAGGERS ===",
     "id": "bronze_dagger",
@@ -188,7 +224,12 @@
       "defense": 0,
       "ranged": 0
     },
-    "inventoryActions": ["Wield", "Use", "Drop", "Examine"]
+    "inventoryActions": [
+      "Wield",
+      "Use",
+      "Drop",
+      "Examine"
+    ]
   },
   {
     "id": "iron_dagger",
@@ -215,7 +256,12 @@
       "defense": 0,
       "ranged": 0
     },
-    "inventoryActions": ["Wield", "Use", "Drop", "Examine"]
+    "inventoryActions": [
+      "Wield",
+      "Use",
+      "Drop",
+      "Examine"
+    ]
   },
   {
     "id": "steel_dagger",
@@ -242,7 +288,12 @@
       "defense": 0,
       "ranged": 0
     },
-    "inventoryActions": ["Wield", "Use", "Drop", "Examine"]
+    "inventoryActions": [
+      "Wield",
+      "Use",
+      "Drop",
+      "Examine"
+    ]
   },
   {
     "id": "mithril_dagger",
@@ -269,7 +320,12 @@
       "defense": 0,
       "ranged": 0
     },
-    "inventoryActions": ["Wield", "Use", "Drop", "Examine"]
+    "inventoryActions": [
+      "Wield",
+      "Use",
+      "Drop",
+      "Examine"
+    ]
   },
   {
     "id": "adamant_dagger",
@@ -296,7 +352,12 @@
       "defense": 0,
       "ranged": 0
     },
-    "inventoryActions": ["Wield", "Use", "Drop", "Examine"]
+    "inventoryActions": [
+      "Wield",
+      "Use",
+      "Drop",
+      "Examine"
+    ]
   },
   {
     "id": "rune_dagger",
@@ -323,9 +384,13 @@
       "defense": 0,
       "ranged": 0
     },
-    "inventoryActions": ["Wield", "Use", "Drop", "Examine"]
+    "inventoryActions": [
+      "Wield",
+      "Use",
+      "Drop",
+      "Examine"
+    ]
   },
-
   {
     "_comment": "=== LONGSWORDS ===",
     "id": "bronze_longsword",
@@ -345,14 +410,26 @@
     "rarity": "common",
     "modelPath": "asset://models/swords/long-swords/longsword-bronze.glb",
     "equippedModelPath": "asset://models/swords/long-swords/longsword-bronze-aligned.glb",
-    "iconPath": "asset://icons/longsword-bronze.png",
+    "equippedModelSha256": "48a6d5562e78d224c06727778d211b22795fc5fe88992939ba716a694b39e193",
+    "equippedModelPathsByAvatar": {
+      "kaykit-knight": "asset://models/duel-kaykit/bronze-longsword-fitted.glb"
+    },
+    "equippedModelSha256ByAvatar": {
+      "kaykit-knight": "e254db45dd5d0867535074cf733b1474f99eef06b05257d96fc2e2f7054085e4"
+    },
+    "iconPath": "asset://icons/longsword-bronze.svg",
     "bonuses": {
       "attack": 5,
       "strength": 7,
       "defense": 0,
       "ranged": 0
     },
-    "inventoryActions": ["Wield", "Use", "Drop", "Examine"]
+    "inventoryActions": [
+      "Wield",
+      "Use",
+      "Drop",
+      "Examine"
+    ]
   },
   {
     "id": "iron_longsword",
@@ -379,7 +456,12 @@
       "defense": 0,
       "ranged": 0
     },
-    "inventoryActions": ["Wield", "Use", "Drop", "Examine"]
+    "inventoryActions": [
+      "Wield",
+      "Use",
+      "Drop",
+      "Examine"
+    ]
   },
   {
     "id": "steel_longsword",
@@ -406,7 +488,12 @@
       "defense": 0,
       "ranged": 0
     },
-    "inventoryActions": ["Wield", "Use", "Drop", "Examine"]
+    "inventoryActions": [
+      "Wield",
+      "Use",
+      "Drop",
+      "Examine"
+    ]
   },
   {
     "id": "mithril_longsword",
@@ -433,7 +520,12 @@
       "defense": 0,
       "ranged": 0
     },
-    "inventoryActions": ["Wield", "Use", "Drop", "Examine"]
+    "inventoryActions": [
+      "Wield",
+      "Use",
+      "Drop",
+      "Examine"
+    ]
   },
   {
     "id": "adamant_longsword",
@@ -441,7 +533,7 @@
     "type": "weapon",
     "tier": "adamant",
     "value": 3200,
-    "weight": 2.0,
+    "weight": 2,
     "equipSlot": "weapon",
     "weaponType": "LONGSWORD",
     "attackType": "MELEE",
@@ -460,7 +552,12 @@
       "defense": 0,
       "ranged": 0
     },
-    "inventoryActions": ["Wield", "Use", "Drop", "Examine"]
+    "inventoryActions": [
+      "Wield",
+      "Use",
+      "Drop",
+      "Examine"
+    ]
   },
   {
     "id": "rune_longsword",
@@ -487,9 +584,13 @@
       "defense": 0,
       "ranged": 0
     },
-    "inventoryActions": ["Wield", "Use", "Drop", "Examine"]
+    "inventoryActions": [
+      "Wield",
+      "Use",
+      "Drop",
+      "Examine"
+    ]
   },
-
   {
     "_comment": "=== SCIMITARS ===",
     "id": "bronze_scimitar",
@@ -509,14 +610,26 @@
     "rarity": "common",
     "modelPath": "asset://models/swords/scimitars/scimitar-bronze.glb",
     "equippedModelPath": "asset://models/swords/scimitars/scimitar-bronze-aligned.glb",
-    "iconPath": "asset://icons/scimitar-bronze.png",
+    "equippedModelSha256": "d353b4981037f59663564c35b16d511a880efb68fce903f34a21e5cc61916925",
+    "equippedModelPathsByAvatar": {
+      "kaykit-knight": "asset://models/duel-kaykit/bronze-scimitar-fitted.glb"
+    },
+    "equippedModelSha256ByAvatar": {
+      "kaykit-knight": "16f7091b5ecd18205aa254c0838bdddbe2e3f37a28d1bad362bfe80b4a0d29d3"
+    },
+    "iconPath": "asset://icons/scimitar-bronze.svg",
     "bonuses": {
       "attack": 7,
       "strength": 6,
       "defense": 0,
       "ranged": 0
     },
-    "inventoryActions": ["Wield", "Use", "Drop", "Examine"]
+    "inventoryActions": [
+      "Wield",
+      "Use",
+      "Drop",
+      "Examine"
+    ]
   },
   {
     "id": "iron_scimitar",
@@ -543,7 +656,12 @@
       "defense": 0,
       "ranged": 0
     },
-    "inventoryActions": ["Wield", "Use", "Drop", "Examine"]
+    "inventoryActions": [
+      "Wield",
+      "Use",
+      "Drop",
+      "Examine"
+    ]
   },
   {
     "id": "steel_scimitar",
@@ -570,7 +688,12 @@
       "defense": 0,
       "ranged": 0
     },
-    "inventoryActions": ["Wield", "Use", "Drop", "Examine"]
+    "inventoryActions": [
+      "Wield",
+      "Use",
+      "Drop",
+      "Examine"
+    ]
   },
   {
     "id": "mithril_scimitar",
@@ -597,7 +720,12 @@
       "defense": 0,
       "ranged": 0
     },
-    "inventoryActions": ["Wield", "Use", "Drop", "Examine"]
+    "inventoryActions": [
+      "Wield",
+      "Use",
+      "Drop",
+      "Examine"
+    ]
   },
   {
     "id": "adamant_scimitar",
@@ -605,7 +733,7 @@
     "type": "weapon",
     "tier": "adamant",
     "value": 2560,
-    "weight": 2.0,
+    "weight": 2,
     "equipSlot": "weapon",
     "weaponType": "SCIMITAR",
     "attackType": "MELEE",
@@ -624,7 +752,12 @@
       "defense": 0,
       "ranged": 0
     },
-    "inventoryActions": ["Wield", "Use", "Drop", "Examine"]
+    "inventoryActions": [
+      "Wield",
+      "Use",
+      "Drop",
+      "Examine"
+    ]
   },
   {
     "id": "rune_scimitar",
@@ -651,9 +784,13 @@
       "defense": 0,
       "ranged": 0
     },
-    "inventoryActions": ["Wield", "Use", "Drop", "Examine"]
+    "inventoryActions": [
+      "Wield",
+      "Use",
+      "Drop",
+      "Examine"
+    ]
   },
-
   {
     "_comment": "=== TWO-HANDED SWORDS ===",
     "id": "bronze_2h_sword",
@@ -672,7 +809,14 @@
     "tradeable": true,
     "rarity": "common",
     "modelPath": "asset://models/swords/2h-swords/2h-bronze.glb",
-    "equippedModelPath": "asset://models/swords/2h-swords/2h-sword-bronze-aligned.glb",
+    "equippedModelPath": "asset://models/swords/2h-swords/2h-sword-bronze-steve-fitted.glb",
+    "equippedModelSha256": "fc62c1a9d255dae213da35e8b041a01976b2d7210f5fa4ae5ddf10a523ab7b64",
+    "equippedModelPathsByAvatar": {
+      "kaykit-knight": "asset://models/duel-kaykit/bronze-2h-sword-fitted.glb"
+    },
+    "equippedModelSha256ByAvatar": {
+      "kaykit-knight": "2f5d4d3361334b63ff512652f7c3d2f64ae0c5d836a2046d62b26beea90fafdf"
+    },
     "iconPath": "asset://icons/2h-sword-bronze.png",
     "bonuses": {
       "attack": 9,
@@ -680,7 +824,12 @@
       "defense": 0,
       "ranged": 0
     },
-    "inventoryActions": ["Wield", "Use", "Drop", "Examine"]
+    "inventoryActions": [
+      "Wield",
+      "Use",
+      "Drop",
+      "Examine"
+    ]
   },
   {
     "id": "iron_2h_sword",
@@ -707,7 +856,12 @@
       "defense": 0,
       "ranged": 0
     },
-    "inventoryActions": ["Wield", "Use", "Drop", "Examine"]
+    "inventoryActions": [
+      "Wield",
+      "Use",
+      "Drop",
+      "Examine"
+    ]
   },
   {
     "id": "steel_2h_sword",
@@ -734,7 +888,12 @@
       "defense": 0,
       "ranged": 0
     },
-    "inventoryActions": ["Wield", "Use", "Drop", "Examine"]
+    "inventoryActions": [
+      "Wield",
+      "Use",
+      "Drop",
+      "Examine"
+    ]
   },
   {
     "id": "mithril_2h_sword",
@@ -761,7 +920,12 @@
       "defense": 0,
       "ranged": 0
     },
-    "inventoryActions": ["Wield", "Use", "Drop", "Examine"]
+    "inventoryActions": [
+      "Wield",
+      "Use",
+      "Drop",
+      "Examine"
+    ]
   },
   {
     "id": "adamant_2h_sword",
@@ -788,7 +952,12 @@
       "defense": 0,
       "ranged": 0
     },
-    "inventoryActions": ["Wield", "Use", "Drop", "Examine"]
+    "inventoryActions": [
+      "Wield",
+      "Use",
+      "Drop",
+      "Examine"
+    ]
   },
   {
     "id": "rune_2h_sword",
@@ -815,9 +984,13 @@
       "defense": 0,
       "ranged": 0
     },
-    "inventoryActions": ["Wield", "Use", "Drop", "Examine"]
+    "inventoryActions": [
+      "Wield",
+      "Use",
+      "Drop",
+      "Examine"
+    ]
   },
-
   {
     "_comment": "=== RANGED WEAPONS (Standard Bows) ===",
     "id": "shortbow",
@@ -836,16 +1009,30 @@
     "tradeable": true,
     "rarity": "common",
     "modelPath": "asset://models/bows/bow-wood/bow-wood.glb",
-    "equippedModelPath": "asset://models/bows/bow-wood/bow-wood-aligned.glb",
-    "iconPath": "asset://icons/shortbow.png",
+    "equippedModelPath": "asset://models/bows/bow-wood/shortbow-steve-fitted.glb",
+    "equippedModelSha256": "899ad277c4e45bc1339d529bf97efa729aea5f7aaee13771159a6ce1b7647ca7",
+    "equippedModelPathsByAvatar": {
+      "kaykit-knight": "asset://models/duel-kaykit/shortbow-fitted.glb"
+    },
+    "equippedModelSha256ByAvatar": {
+      "kaykit-knight": "1699694fb04120809ccbf68ba96ca612d34efb15efdfd39c4241a6e92454aa5f"
+    },
+    "iconPath": "asset://icons/bow-wood.png",
     "bonuses": {
       "attackRanged": 8
     },
     "requirements": {
       "level": 1,
-      "skills": { "ranged": 1 }
+      "skills": {
+        "ranged": 1
+      }
     },
-    "inventoryActions": ["Wield", "Use", "Drop", "Examine"]
+    "inventoryActions": [
+      "Wield",
+      "Use",
+      "Drop",
+      "Examine"
+    ]
   },
   {
     "id": "oak_shortbow",
@@ -871,9 +1058,16 @@
     },
     "requirements": {
       "level": 5,
-      "skills": { "ranged": 5 }
+      "skills": {
+        "ranged": 5
+      }
     },
-    "inventoryActions": ["Wield", "Use", "Drop", "Examine"]
+    "inventoryActions": [
+      "Wield",
+      "Use",
+      "Drop",
+      "Examine"
+    ]
   },
   {
     "id": "willow_shortbow",
@@ -899,9 +1093,16 @@
     },
     "requirements": {
       "level": 20,
-      "skills": { "ranged": 20 }
+      "skills": {
+        "ranged": 20
+      }
     },
-    "inventoryActions": ["Wield", "Use", "Drop", "Examine"]
+    "inventoryActions": [
+      "Wield",
+      "Use",
+      "Drop",
+      "Examine"
+    ]
   },
   {
     "id": "maple_shortbow",
@@ -927,9 +1128,16 @@
     },
     "requirements": {
       "level": 30,
-      "skills": { "ranged": 30 }
+      "skills": {
+        "ranged": 30
+      }
     },
-    "inventoryActions": ["Wield", "Use", "Drop", "Examine"]
+    "inventoryActions": [
+      "Wield",
+      "Use",
+      "Drop",
+      "Examine"
+    ]
   },
   {
     "id": "yew_shortbow",
@@ -955,9 +1163,16 @@
     },
     "requirements": {
       "level": 40,
-      "skills": { "ranged": 40 }
+      "skills": {
+        "ranged": 40
+      }
     },
-    "inventoryActions": ["Wield", "Use", "Drop", "Examine"]
+    "inventoryActions": [
+      "Wield",
+      "Use",
+      "Drop",
+      "Examine"
+    ]
   },
   {
     "id": "magic_shortbow",
@@ -976,18 +1191,25 @@
     "tradeable": true,
     "rarity": "rare",
     "modelPath": "asset://models/bows/bow-wood/bow-wood.glb",
-    "equippedModelPath": "asset://models/bows/bow-wood/bow-wood-aligned.glb",
-    "iconPath": "asset://icons/magic-shortbow.png",
+    "equippedModelPath": "asset://models/bows/bow-wood/magic-shortbow-steve-fitted.glb",
+    "equippedModelSha256": "c3501d2302f922e04539c88f9c9898ba153c6493865bc5a9c4e1baed5162e837",
+    "iconPath": "asset://icons/magic-shortbow.svg",
     "bonuses": {
       "attackRanged": 69
     },
     "requirements": {
       "level": 50,
-      "skills": { "ranged": 50 }
+      "skills": {
+        "ranged": 50
+      }
     },
-    "inventoryActions": ["Wield", "Use", "Drop", "Examine"]
+    "inventoryActions": [
+      "Wield",
+      "Use",
+      "Drop",
+      "Examine"
+    ]
   },
-
   {
     "_comment": "=== LONGBOWS ===",
     "id": "longbow",
@@ -1013,9 +1235,16 @@
     },
     "requirements": {
       "level": 1,
-      "skills": { "ranged": 1 }
+      "skills": {
+        "ranged": 1
+      }
     },
-    "inventoryActions": ["Wield", "Use", "Drop", "Examine"]
+    "inventoryActions": [
+      "Wield",
+      "Use",
+      "Drop",
+      "Examine"
+    ]
   },
   {
     "id": "oak_longbow",
@@ -1041,9 +1270,16 @@
     },
     "requirements": {
       "level": 5,
-      "skills": { "ranged": 5 }
+      "skills": {
+        "ranged": 5
+      }
     },
-    "inventoryActions": ["Wield", "Use", "Drop", "Examine"]
+    "inventoryActions": [
+      "Wield",
+      "Use",
+      "Drop",
+      "Examine"
+    ]
   },
   {
     "id": "willow_longbow",
@@ -1069,9 +1305,16 @@
     },
     "requirements": {
       "level": 20,
-      "skills": { "ranged": 20 }
+      "skills": {
+        "ranged": 20
+      }
     },
-    "inventoryActions": ["Wield", "Use", "Drop", "Examine"]
+    "inventoryActions": [
+      "Wield",
+      "Use",
+      "Drop",
+      "Examine"
+    ]
   },
   {
     "id": "maple_longbow",
@@ -1097,9 +1340,16 @@
     },
     "requirements": {
       "level": 30,
-      "skills": { "ranged": 30 }
+      "skills": {
+        "ranged": 30
+      }
     },
-    "inventoryActions": ["Wield", "Use", "Drop", "Examine"]
+    "inventoryActions": [
+      "Wield",
+      "Use",
+      "Drop",
+      "Examine"
+    ]
   },
   {
     "id": "yew_longbow",
@@ -1125,9 +1375,16 @@
     },
     "requirements": {
       "level": 40,
-      "skills": { "ranged": 40 }
+      "skills": {
+        "ranged": 40
+      }
     },
-    "inventoryActions": ["Wield", "Use", "Drop", "Examine"]
+    "inventoryActions": [
+      "Wield",
+      "Use",
+      "Drop",
+      "Examine"
+    ]
   },
   {
     "id": "magic_longbow",
@@ -1153,11 +1410,17 @@
     },
     "requirements": {
       "level": 50,
-      "skills": { "ranged": 50 }
+      "skills": {
+        "ranged": 50
+      }
     },
-    "inventoryActions": ["Wield", "Use", "Drop", "Examine"]
+    "inventoryActions": [
+      "Wield",
+      "Use",
+      "Drop",
+      "Examine"
+    ]
   },
-
   {
     "_comment": "=== UNSTRUNG BOWS (Fletching Intermediates) ===",
     "id": "shortbow_u",
@@ -1171,7 +1434,11 @@
     "rarity": "common",
     "modelPath": null,
     "iconPath": "asset://icons/shortbow-u.png",
-    "inventoryActions": ["Use", "Drop", "Examine"]
+    "inventoryActions": [
+      "Use",
+      "Drop",
+      "Examine"
+    ]
   },
   {
     "id": "longbow_u",
@@ -1185,7 +1452,11 @@
     "rarity": "common",
     "modelPath": null,
     "iconPath": "asset://icons/longbow-u.png",
-    "inventoryActions": ["Use", "Drop", "Examine"]
+    "inventoryActions": [
+      "Use",
+      "Drop",
+      "Examine"
+    ]
   },
   {
     "id": "oak_shortbow_u",
@@ -1199,7 +1470,11 @@
     "rarity": "common",
     "modelPath": null,
     "iconPath": "asset://icons/oak-shortbow-u.png",
-    "inventoryActions": ["Use", "Drop", "Examine"]
+    "inventoryActions": [
+      "Use",
+      "Drop",
+      "Examine"
+    ]
   },
   {
     "id": "oak_longbow_u",
@@ -1213,7 +1488,11 @@
     "rarity": "common",
     "modelPath": null,
     "iconPath": "asset://icons/oak-longbow-u.png",
-    "inventoryActions": ["Use", "Drop", "Examine"]
+    "inventoryActions": [
+      "Use",
+      "Drop",
+      "Examine"
+    ]
   },
   {
     "id": "willow_shortbow_u",
@@ -1227,7 +1506,11 @@
     "rarity": "common",
     "modelPath": null,
     "iconPath": "asset://icons/willow-shortbow-u.png",
-    "inventoryActions": ["Use", "Drop", "Examine"]
+    "inventoryActions": [
+      "Use",
+      "Drop",
+      "Examine"
+    ]
   },
   {
     "id": "willow_longbow_u",
@@ -1241,7 +1524,11 @@
     "rarity": "common",
     "modelPath": null,
     "iconPath": "asset://icons/willow-longbow-u.png",
-    "inventoryActions": ["Use", "Drop", "Examine"]
+    "inventoryActions": [
+      "Use",
+      "Drop",
+      "Examine"
+    ]
   },
   {
     "id": "maple_shortbow_u",
@@ -1255,7 +1542,11 @@
     "rarity": "uncommon",
     "modelPath": null,
     "iconPath": "asset://icons/maple-shortbow-u.png",
-    "inventoryActions": ["Use", "Drop", "Examine"]
+    "inventoryActions": [
+      "Use",
+      "Drop",
+      "Examine"
+    ]
   },
   {
     "id": "maple_longbow_u",
@@ -1269,7 +1560,11 @@
     "rarity": "uncommon",
     "modelPath": null,
     "iconPath": "asset://icons/maple-longbow-u.png",
-    "inventoryActions": ["Use", "Drop", "Examine"]
+    "inventoryActions": [
+      "Use",
+      "Drop",
+      "Examine"
+    ]
   },
   {
     "id": "yew_shortbow_u",
@@ -1283,7 +1578,11 @@
     "rarity": "rare",
     "modelPath": null,
     "iconPath": "asset://icons/yew-shortbow-u.png",
-    "inventoryActions": ["Use", "Drop", "Examine"]
+    "inventoryActions": [
+      "Use",
+      "Drop",
+      "Examine"
+    ]
   },
   {
     "id": "yew_longbow_u",
@@ -1297,7 +1596,11 @@
     "rarity": "rare",
     "modelPath": null,
     "iconPath": "asset://icons/yew-longbow-u.png",
-    "inventoryActions": ["Use", "Drop", "Examine"]
+    "inventoryActions": [
+      "Use",
+      "Drop",
+      "Examine"
+    ]
   },
   {
     "id": "magic_shortbow_u",
@@ -1311,7 +1614,11 @@
     "rarity": "rare",
     "modelPath": null,
     "iconPath": "asset://icons/magic-shortbow-u.png",
-    "inventoryActions": ["Use", "Drop", "Examine"]
+    "inventoryActions": [
+      "Use",
+      "Drop",
+      "Examine"
+    ]
   },
   {
     "id": "magic_longbow_u",
@@ -1325,9 +1632,12 @@
     "rarity": "rare",
     "modelPath": null,
     "iconPath": "asset://icons/magic-longbow-u.png",
-    "inventoryActions": ["Use", "Drop", "Examine"]
+    "inventoryActions": [
+      "Use",
+      "Drop",
+      "Examine"
+    ]
   },
-
   {
     "_comment": "=== MAGIC WEAPONS (Staves) ===",
     "id": "staff",
@@ -1351,7 +1661,12 @@
     "bonuses": {
       "attackMagic": 4
     },
-    "inventoryActions": ["Wield", "Use", "Drop", "Examine"]
+    "inventoryActions": [
+      "Wield",
+      "Use",
+      "Drop",
+      "Examine"
+    ]
   },
   {
     "id": "magic_staff",
@@ -1377,9 +1692,16 @@
     },
     "requirements": {
       "level": 1,
-      "skills": { "magic": 1 }
+      "skills": {
+        "magic": 1
+      }
     },
-    "inventoryActions": ["Wield", "Use", "Drop", "Examine"]
+    "inventoryActions": [
+      "Wield",
+      "Use",
+      "Drop",
+      "Examine"
+    ]
   },
   {
     "id": "staff_of_air",
@@ -1398,17 +1720,33 @@
     "tradeable": true,
     "rarity": "uncommon",
     "modelPath": "asset://models/magic-staffs/air-staff/air-staff.glb",
-    "equippedModelPath": "asset://models/magic-staffs/air-staff/air-staff-aligned.glb",
-    "iconPath": "asset://icons/staff-of-air.png",
+    "equippedModelPath": "asset://models/magic-staffs/air-staff/staff-of-air-steve-fitted.glb",
+    "equippedModelSha256": "5d90371b420ec45c5aa64fa8857217d035315cd6dffe21b07ac38a757a25b5c2",
+    "equippedModelPathsByAvatar": {
+      "kaykit-knight": "asset://models/duel-kaykit/staff-of-air-fitted.glb"
+    },
+    "equippedModelSha256ByAvatar": {
+      "kaykit-knight": "7c2e4c69fa92333786e67793f7dfc8f5fc4095459be1c5f5b3a916302104008a"
+    },
+    "iconPath": "asset://icons/staff-of-air.svg",
     "bonuses": {
       "attackMagic": 10
     },
-    "providesInfiniteRunes": ["air_rune"],
+    "providesInfiniteRunes": [
+      "air_rune"
+    ],
     "requirements": {
       "level": 1,
-      "skills": { "magic": 1 }
+      "skills": {
+        "magic": 1
+      }
     },
-    "inventoryActions": ["Wield", "Use", "Drop", "Examine"]
+    "inventoryActions": [
+      "Wield",
+      "Use",
+      "Drop",
+      "Examine"
+    ]
   },
   {
     "id": "staff_of_water",
@@ -1432,12 +1770,21 @@
     "bonuses": {
       "attackMagic": 10
     },
-    "providesInfiniteRunes": ["water_rune"],
+    "providesInfiniteRunes": [
+      "water_rune"
+    ],
     "requirements": {
       "level": 1,
-      "skills": { "magic": 1 }
+      "skills": {
+        "magic": 1
+      }
     },
-    "inventoryActions": ["Wield", "Use", "Drop", "Examine"]
+    "inventoryActions": [
+      "Wield",
+      "Use",
+      "Drop",
+      "Examine"
+    ]
   },
   {
     "id": "staff_of_earth",
@@ -1461,12 +1808,21 @@
     "bonuses": {
       "attackMagic": 10
     },
-    "providesInfiniteRunes": ["earth_rune"],
+    "providesInfiniteRunes": [
+      "earth_rune"
+    ],
     "requirements": {
       "level": 1,
-      "skills": { "magic": 1 }
+      "skills": {
+        "magic": 1
+      }
     },
-    "inventoryActions": ["Wield", "Use", "Drop", "Examine"]
+    "inventoryActions": [
+      "Wield",
+      "Use",
+      "Drop",
+      "Examine"
+    ]
   },
   {
     "id": "staff_of_fire",
@@ -1490,11 +1846,20 @@
     "bonuses": {
       "attackMagic": 10
     },
-    "providesInfiniteRunes": ["fire_rune"],
+    "providesInfiniteRunes": [
+      "fire_rune"
+    ],
     "requirements": {
       "level": 1,
-      "skills": { "magic": 1 }
+      "skills": {
+        "magic": 1
+      }
     },
-    "inventoryActions": ["Wield", "Use", "Drop", "Examine"]
+    "inventoryActions": [
+      "Wield",
+      "Use",
+      "Drop",
+      "Examine"
+    ]
   }
 ]

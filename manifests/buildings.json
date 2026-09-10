@@ -1,1 +1,52 @@
-[]
+{
+  "version": 1,
+  "towns": [],
+  "buildingTypes": {
+    "bank": {
+      "label": "Bank",
+      "widthRange": [6, 8],
+      "depthRange": [5, 7],
+      "floors": 1,
+      "hasBasement": false,
+      "props": ["bank_counter", "bank_chest"]
+    },
+    "store": {
+      "label": "Store",
+      "widthRange": [5, 7],
+      "depthRange": [4, 6],
+      "floors": 1,
+      "hasBasement": false,
+      "props": ["store_counter", "shelves"]
+    },
+    "house": {
+      "label": "House",
+      "widthRange": [5, 7],
+      "depthRange": [4, 6],
+      "floors": 1,
+      "hasBasement": false
+    }
+  },
+  "sizeDefinitions": {
+    "sm": {
+      "label": "Hamlet",
+      "minBuildings": 3,
+      "maxBuildings": 5,
+      "radius": 25,
+      "safeZoneRadius": 40
+    },
+    "md": {
+      "label": "Village",
+      "minBuildings": 6,
+      "maxBuildings": 10,
+      "radius": 40,
+      "safeZoneRadius": 60
+    },
+    "lg": {
+      "label": "Town",
+      "minBuildings": 11,
+      "maxBuildings": 16,
+      "radius": 60,
+      "safeZoneRadius": 80
+    }
+  }
+}

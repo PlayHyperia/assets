@@ -1,6 +1,6 @@
 {
   "$schema": "../smelting.schema.json",
-  "_comment": "OSRS-accurate smelting recipes. Furnace crafting ores into bars.",
+  "_comment": "rules-consistent smelting recipes. Furnace crafting ores into bars.",
   "recipes": [
     {
       "output": "bronze_bar",

@@ -4,55 +4,41 @@
     "skill": "woodcutting",
     "tier": "bronze",
     "levelRequired": 1,
-    "priority": 8
+    "priority": 6
   },
   {
     "itemId": "iron_hatchet",
     "skill": "woodcutting",
     "tier": "iron",
     "levelRequired": 1,
-    "priority": 7
+    "priority": 5
   },
   {
     "itemId": "steel_hatchet",
     "skill": "woodcutting",
     "tier": "steel",
     "levelRequired": 6,
-    "priority": 6
+    "priority": 4
   },
   {
     "itemId": "mithril_hatchet",
     "skill": "woodcutting",
     "tier": "mithril",
     "levelRequired": 21,
-    "priority": 5
+    "priority": 3
   },
   {
     "itemId": "adamant_hatchet",
     "skill": "woodcutting",
     "tier": "adamant",
     "levelRequired": 31,
-    "priority": 4
+    "priority": 2
   },
   {
     "itemId": "rune_hatchet",
     "skill": "woodcutting",
     "tier": "rune",
     "levelRequired": 41,
-    "priority": 3
-  },
-  {
-    "itemId": "dragon_hatchet",
-    "skill": "woodcutting",
-    "tier": "dragon",
-    "levelRequired": 61,
-    "priority": 2
-  },
-  {
-    "itemId": "crystal_hatchet",
-    "skill": "woodcutting",
-    "tier": "crystal",
-    "levelRequired": 71,
     "priority": 1
   },
   {
@@ -61,7 +47,7 @@
     "tier": "bronze",
     "levelRequired": 1,
     "rollTicks": 8,
-    "priority": 8
+    "priority": 6
   },
   {
     "itemId": "iron_pickaxe",
@@ -69,7 +55,7 @@
     "tier": "iron",
     "levelRequired": 1,
     "rollTicks": 7,
-    "priority": 7
+    "priority": 5
   },
   {
     "itemId": "steel_pickaxe",
@@ -77,7 +63,7 @@
     "tier": "steel",
     "levelRequired": 6,
     "rollTicks": 6,
-    "priority": 6
+    "priority": 4
   },
   {
     "itemId": "mithril_pickaxe",
@@ -85,7 +71,7 @@
     "tier": "mithril",
     "levelRequired": 21,
     "rollTicks": 5,
-    "priority": 5
+    "priority": 3
   },
   {
     "itemId": "adamant_pickaxe",
@@ -93,7 +79,7 @@
     "tier": "adamant",
     "levelRequired": 31,
     "rollTicks": 4,
-    "priority": 4
+    "priority": 2
   },
   {
     "itemId": "rune_pickaxe",
@@ -101,33 +87,13 @@
     "tier": "rune",
     "levelRequired": 41,
     "rollTicks": 3,
-    "priority": 3
-  },
-  {
-    "itemId": "dragon_pickaxe",
-    "skill": "mining",
-    "tier": "dragon",
-    "levelRequired": 61,
-    "rollTicks": 3,
-    "bonusTickChance": 0.167,
-    "bonusRollTicks": 2,
-    "priority": 2
-  },
-  {
-    "itemId": "crystal_pickaxe",
-    "skill": "mining",
-    "tier": "crystal",
-    "levelRequired": 71,
-    "rollTicks": 3,
-    "bonusTickChance": 0.25,
-    "bonusRollTicks": 2,
     "priority": 1
   },
   {
     "itemId": "fishing_rod",
     "skill": "fishing",
     "tier": "standard",
-    "levelRequired": 1,
+    "levelRequired": 5,
     "priority": 1
   },
   {
@@ -138,17 +104,24 @@
     "priority": 1
   },
   {
-    "itemId": "barbarian_rod",
-    "skill": "fishing",
-    "tier": "barbarian",
-    "levelRequired": 48,
-    "priority": 1
-  },
-  {
     "itemId": "small_fishing_net",
     "skill": "fishing",
     "tier": "net",
     "levelRequired": 1,
+    "priority": 1
+  },
+  {
+    "itemId": "harpoon",
+    "skill": "fishing",
+    "tier": "standard",
+    "levelRequired": 35,
+    "priority": 1
+  },
+  {
+    "itemId": "lobster_pot",
+    "skill": "fishing",
+    "tier": "standard",
+    "levelRequired": 40,
     "priority": 1
   }
 ]

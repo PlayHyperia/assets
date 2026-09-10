@@ -1,5 +1,5 @@
 {
-  "_comment": "OSRS-accurate crafting recipes. Leather, studded, dragonhide, jewelry, and gem cutting.",
+  "_comment": "rules-consistent crafting recipes. Leather, studded, dragonhide, jewelry, and gem cutting.",
   "recipes": [
     {
       "output": "leather_gloves",

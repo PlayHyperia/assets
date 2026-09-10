@@ -1,0 +1,445 @@
+{
+  "schemaVersion": 1,
+  "activations": [
+    {
+      "activationId": "steve-harpoon-v1",
+      "state": "active",
+      "avatarId": "steve",
+      "itemId": "harpoon",
+      "slot": "gatheringtool",
+      "bodyEmoteKey": "harpoon",
+      "equipment": {
+        "assetUrl": "asset://models/tools/harpoon/harpoon-steve-fitted.glb",
+        "sha256": "0e70fbb8bd4ee8b21b9be8cad8ad525b18722443c7f19899e8113f4cda721b20"
+      },
+      "motion": {
+        "assetUrl": "asset://emotes/emote-harpoon-water-strike.glb",
+        "sha256": "f414eecf3289dd510bc325ceaf3d809776195585de3ca20753c61918a7673812",
+        "durationSeconds": 1.2,
+        "strikeSeconds": 0.6,
+        "recoverySeconds": 0.6
+      },
+      "rollback": {
+        "equippedModelPath": null,
+        "equippedModelPathsByAvatar": {},
+        "bodyEmotePath": null,
+        "removeInstalledAssets": true
+      }
+    },
+    {
+      "activationId": "steve-bronze-hatchet-v1",
+      "activationGroupId": "steve-core-preparation-v1",
+      "state": "active",
+      "avatarId": "steve",
+      "itemId": "bronze_hatchet",
+      "slot": "gatheringtool",
+      "bodyEmoteKey": "chopping",
+      "equipment": {
+        "assetUrl": "asset://models/tools/preparation/bronze-hatchet-steve-fitted.glb",
+        "sha256": "a2cf2c235b78597813147b03c02baf364be4086cfcce4945cadd3b649af59653"
+      },
+      "motion": {
+        "assetUrl": "asset://emotes/emote-steve-woodcutting.glb",
+        "sha256": "6766481488780dcdef256fcee08ddbdfa4318ab8142ca0ff749351f733e4f782",
+        "durationSeconds": 4.333333492279053,
+        "loopSeamExact": true
+      },
+      "rollback": {
+        "gatheringModelPathsByAvatar": {},
+        "bodyEmotePath": "asset://emotes/emote_chopping.glb",
+        "removeInstalledAssets": true
+      }
+    },
+    {
+      "activationId": "steve-iron-hatchet-v1",
+      "activationGroupId": "steve-core-preparation-v1",
+      "state": "active",
+      "avatarId": "steve",
+      "itemId": "iron_hatchet",
+      "slot": "gatheringtool",
+      "bodyEmoteKey": "chopping",
+      "equipment": {
+        "assetUrl": "asset://models/tools/preparation/iron-hatchet-steve-fitted.glb",
+        "sha256": "99291a0860fd4b1b3a11b7c8d12f50726de5860d8bdb2e6842c92658a6c4c95b"
+      },
+      "motion": {
+        "assetUrl": "asset://emotes/emote-steve-woodcutting.glb",
+        "sha256": "6766481488780dcdef256fcee08ddbdfa4318ab8142ca0ff749351f733e4f782",
+        "durationSeconds": 4.333333492279053,
+        "loopSeamExact": true
+      },
+      "rollback": {
+        "gatheringModelPathsByAvatar": {},
+        "bodyEmotePath": "asset://emotes/emote_chopping.glb",
+        "removeInstalledAssets": true
+      }
+    },
+    {
+      "activationId": "steve-steel-hatchet-v1",
+      "activationGroupId": "steve-core-preparation-v1",
+      "state": "active",
+      "avatarId": "steve",
+      "itemId": "steel_hatchet",
+      "slot": "gatheringtool",
+      "bodyEmoteKey": "chopping",
+      "equipment": {
+        "assetUrl": "asset://models/tools/preparation/steel-hatchet-steve-fitted.glb",
+        "sha256": "b4da7896107b58827bb8498a0fce3a9cf2d8573ba48cc647e36356d12f0871ca"
+      },
+      "motion": {
+        "assetUrl": "asset://emotes/emote-steve-woodcutting.glb",
+        "sha256": "6766481488780dcdef256fcee08ddbdfa4318ab8142ca0ff749351f733e4f782",
+        "durationSeconds": 4.333333492279053,
+        "loopSeamExact": true
+      },
+      "rollback": {
+        "gatheringModelPathsByAvatar": {},
+        "bodyEmotePath": "asset://emotes/emote_chopping.glb",
+        "removeInstalledAssets": true
+      }
+    },
+    {
+      "activationId": "steve-mithril-hatchet-v1",
+      "activationGroupId": "steve-core-preparation-v1",
+      "state": "active",
+      "avatarId": "steve",
+      "itemId": "mithril_hatchet",
+      "slot": "gatheringtool",
+      "bodyEmoteKey": "chopping",
+      "equipment": {
+        "assetUrl": "asset://models/tools/preparation/mithril-hatchet-steve-fitted.glb",
+        "sha256": "1b8ee2337485d40a08278c30f5dfebf18201890a878d994f59191807d81d32c6"
+      },
+      "motion": {
+        "assetUrl": "asset://emotes/emote-steve-woodcutting.glb",
+        "sha256": "6766481488780dcdef256fcee08ddbdfa4318ab8142ca0ff749351f733e4f782",
+        "durationSeconds": 4.333333492279053,
+        "loopSeamExact": true
+      },
+      "rollback": {
+        "gatheringModelPathsByAvatar": {},
+        "bodyEmotePath": "asset://emotes/emote_chopping.glb",
+        "removeInstalledAssets": true
+      }
+    },
+    {
+      "activationId": "steve-adamant-hatchet-v1",
+      "activationGroupId": "steve-core-preparation-v1",
+      "state": "active",
+      "avatarId": "steve",
+      "itemId": "adamant_hatchet",
+      "slot": "gatheringtool",
+      "bodyEmoteKey": "chopping",
+      "equipment": {
+        "assetUrl": "asset://models/tools/preparation/adamant-hatchet-steve-fitted.glb",
+        "sha256": "d49a3d3cd199eb81d2224ae234921bc6499934c227f13c863b0e78e4a0a0edb8"
+      },
+      "motion": {
+        "assetUrl": "asset://emotes/emote-steve-woodcutting.glb",
+        "sha256": "6766481488780dcdef256fcee08ddbdfa4318ab8142ca0ff749351f733e4f782",
+        "durationSeconds": 4.333333492279053,
+        "loopSeamExact": true
+      },
+      "rollback": {
+        "gatheringModelPathsByAvatar": {},
+        "bodyEmotePath": "asset://emotes/emote_chopping.glb",
+        "removeInstalledAssets": true
+      }
+    },
+    {
+      "activationId": "steve-rune-hatchet-v1",
+      "activationGroupId": "steve-core-preparation-v1",
+      "state": "active",
+      "avatarId": "steve",
+      "itemId": "rune_hatchet",
+      "slot": "gatheringtool",
+      "bodyEmoteKey": "chopping",
+      "equipment": {
+        "assetUrl": "asset://models/tools/preparation/rune-hatchet-steve-fitted.glb",
+        "sha256": "bbe5ba17a47e6b8b669ec80f59c8ae3af4a893cf8d5e7e84bac07320339533d7"
+      },
+      "motion": {
+        "assetUrl": "asset://emotes/emote-steve-woodcutting.glb",
+        "sha256": "6766481488780dcdef256fcee08ddbdfa4318ab8142ca0ff749351f733e4f782",
+        "durationSeconds": 4.333333492279053,
+        "loopSeamExact": true
+      },
+      "rollback": {
+        "gatheringModelPathsByAvatar": {},
+        "bodyEmotePath": "asset://emotes/emote_chopping.glb",
+        "removeInstalledAssets": true
+      }
+    },
+    {
+      "activationId": "steve-bronze-pickaxe-v1",
+      "activationGroupId": "steve-core-preparation-v1",
+      "state": "active",
+      "avatarId": "steve",
+      "itemId": "bronze_pickaxe",
+      "slot": "gatheringtool",
+      "bodyEmoteKey": "mining",
+      "equipment": {
+        "assetUrl": "asset://models/tools/preparation/bronze-pickaxe-steve-fitted.glb",
+        "sha256": "a25a0eda248e428e855dff8ec344b173db8d5ebf53a357ac7880f63c7e04c815"
+      },
+      "motion": {
+        "assetUrl": "asset://emotes/emote-steve-mining.glb",
+        "sha256": "cf8c87b240215e98155641193e917fc12cd3d22e909871534fba6b017ad5e4ce",
+        "durationSeconds": 6.0333333015441895,
+        "loopSeamExact": true
+      },
+      "rollback": {
+        "gatheringModelPathsByAvatar": {},
+        "bodyEmotePath": "asset://emotes/emote_chopping.glb",
+        "removeInstalledAssets": true
+      }
+    },
+    {
+      "activationId": "steve-iron-pickaxe-v1",
+      "activationGroupId": "steve-core-preparation-v1",
+      "state": "active",
+      "avatarId": "steve",
+      "itemId": "iron_pickaxe",
+      "slot": "gatheringtool",
+      "bodyEmoteKey": "mining",
+      "equipment": {
+        "assetUrl": "asset://models/tools/preparation/iron-pickaxe-steve-fitted.glb",
+        "sha256": "480b8689daf05ad8ba62469bd1ac9f481b2ae14a84d5839fc538fe5299ce798b"
+      },
+      "motion": {
+        "assetUrl": "asset://emotes/emote-steve-mining.glb",
+        "sha256": "cf8c87b240215e98155641193e917fc12cd3d22e909871534fba6b017ad5e4ce",
+        "durationSeconds": 6.0333333015441895,
+        "loopSeamExact": true
+      },
+      "rollback": {
+        "gatheringModelPathsByAvatar": {},
+        "bodyEmotePath": "asset://emotes/emote_chopping.glb",
+        "removeInstalledAssets": true
+      }
+    },
+    {
+      "activationId": "steve-steel-pickaxe-v1",
+      "activationGroupId": "steve-core-preparation-v1",
+      "state": "active",
+      "avatarId": "steve",
+      "itemId": "steel_pickaxe",
+      "slot": "gatheringtool",
+      "bodyEmoteKey": "mining",
+      "equipment": {
+        "assetUrl": "asset://models/tools/preparation/steel-pickaxe-steve-fitted.glb",
+        "sha256": "0f0e030a332682fb588f2798a7d7cea76727fca8a9c40daad3d3f16bde0d95c3"
+      },
+      "motion": {
+        "assetUrl": "asset://emotes/emote-steve-mining.glb",
+        "sha256": "cf8c87b240215e98155641193e917fc12cd3d22e909871534fba6b017ad5e4ce",
+        "durationSeconds": 6.0333333015441895,
+        "loopSeamExact": true
+      },
+      "rollback": {
+        "gatheringModelPathsByAvatar": {},
+        "bodyEmotePath": "asset://emotes/emote_chopping.glb",
+        "removeInstalledAssets": true
+      }
+    },
+    {
+      "activationId": "steve-mithril-pickaxe-v1",
+      "activationGroupId": "steve-core-preparation-v1",
+      "state": "active",
+      "avatarId": "steve",
+      "itemId": "mithril_pickaxe",
+      "slot": "gatheringtool",
+      "bodyEmoteKey": "mining",
+      "equipment": {
+        "assetUrl": "asset://models/tools/preparation/mithril-pickaxe-steve-fitted.glb",
+        "sha256": "ddd68cd6a8aa5e8e9fc0059f9d75560417197cb01d4cdc9149b5b178da4b4d80"
+      },
+      "motion": {
+        "assetUrl": "asset://emotes/emote-steve-mining.glb",
+        "sha256": "cf8c87b240215e98155641193e917fc12cd3d22e909871534fba6b017ad5e4ce",
+        "durationSeconds": 6.0333333015441895,
+        "loopSeamExact": true
+      },
+      "rollback": {
+        "gatheringModelPathsByAvatar": {},
+        "bodyEmotePath": "asset://emotes/emote_chopping.glb",
+        "removeInstalledAssets": true
+      }
+    },
+    {
+      "activationId": "steve-adamant-pickaxe-v1",
+      "activationGroupId": "steve-core-preparation-v1",
+      "state": "active",
+      "avatarId": "steve",
+      "itemId": "adamant_pickaxe",
+      "slot": "gatheringtool",
+      "bodyEmoteKey": "mining",
+      "equipment": {
+        "assetUrl": "asset://models/tools/preparation/adamant-pickaxe-steve-fitted.glb",
+        "sha256": "8be0be7059121aa91a375b43b10e430d9fa28317dfa9748c4f745f8fdb526cbd"
+      },
+      "motion": {
+        "assetUrl": "asset://emotes/emote-steve-mining.glb",
+        "sha256": "cf8c87b240215e98155641193e917fc12cd3d22e909871534fba6b017ad5e4ce",
+        "durationSeconds": 6.0333333015441895,
+        "loopSeamExact": true
+      },
+      "rollback": {
+        "gatheringModelPathsByAvatar": {},
+        "bodyEmotePath": "asset://emotes/emote_chopping.glb",
+        "removeInstalledAssets": true
+      }
+    },
+    {
+      "activationId": "steve-rune-pickaxe-v1",
+      "activationGroupId": "steve-core-preparation-v1",
+      "state": "active",
+      "avatarId": "steve",
+      "itemId": "rune_pickaxe",
+      "slot": "gatheringtool",
+      "bodyEmoteKey": "mining",
+      "equipment": {
+        "assetUrl": "asset://models/tools/preparation/rune-pickaxe-steve-fitted.glb",
+        "sha256": "ecebe04531da05dfb887246672d0b1616c5f0438b74098867a1c2f8a72d67101"
+      },
+      "motion": {
+        "assetUrl": "asset://emotes/emote-steve-mining.glb",
+        "sha256": "cf8c87b240215e98155641193e917fc12cd3d22e909871534fba6b017ad5e4ce",
+        "durationSeconds": 6.0333333015441895,
+        "loopSeamExact": true
+      },
+      "rollback": {
+        "gatheringModelPathsByAvatar": {},
+        "bodyEmotePath": "asset://emotes/emote_chopping.glb",
+        "removeInstalledAssets": true
+      }
+    },
+    {
+      "activationId": "steve-fishing-rod-v1",
+      "activationGroupId": "steve-core-preparation-v1",
+      "state": "active",
+      "avatarId": "steve",
+      "itemId": "fishing_rod",
+      "slot": "gatheringtool",
+      "bodyEmoteKey": "fishing_rod",
+      "equipment": {
+        "assetUrl": "asset://models/tools/preparation/fishing-rod-steve-fitted.glb",
+        "sha256": "7d8bc4442102699cdcab0d0fb835855ae23f7dd034ea173bd92ccb10a8f5644c"
+      },
+      "motion": {
+        "assetUrl": "asset://emotes/emote-steve-fishing-cast.glb",
+        "sha256": "061c247a2e6618daa370bfc759ebabb57ff0ff79c23c9f93dba5dc9c7177ac99",
+        "durationSeconds": 1.9333332777023315,
+        "loopSeamExact": true
+      },
+      "rollback": {
+        "gatheringModelPathsByAvatar": {},
+        "bodyEmotePath": "asset://emotes/emote-fishing.glb",
+        "removeInstalledAssets": true
+      }
+    },
+    {
+      "activationId": "steve-fly-fishing-rod-v1",
+      "activationGroupId": "steve-fishing-interactions-v1",
+      "state": "active",
+      "avatarId": "steve",
+      "itemId": "fly_fishing_rod",
+      "slot": "gatheringtool",
+      "bodyEmoteKey": "fly_fishing_rod",
+      "equipment": {
+        "assetUrl": "asset://models/tools/fishing-interactions/fly-fishing-rod-steve-fitted.glb",
+        "sha256": "c1031bf108e033a484f4224d891a67b139c27ddd68b4cc5d27279ce222b5646d"
+      },
+      "motion": {
+        "assetUrl": "asset://emotes/emote-steve-fishing-cast.glb",
+        "sha256": "061c247a2e6618daa370bfc759ebabb57ff0ff79c23c9f93dba5dc9c7177ac99",
+        "durationSeconds": 1.933333,
+        "loopSeamExact": true
+      },
+      "rollback": {
+        "gatheringModelPathsByAvatar": {},
+        "removeInstalledAssets": true
+      }
+    },
+    {
+      "activationId": "steve-small-fishing-net-v1",
+      "activationGroupId": "steve-fishing-interactions-v1",
+      "state": "active",
+      "avatarId": "steve",
+      "itemId": "small_fishing_net",
+      "slot": "gatheringtool",
+      "bodyEmoteKey": "small_fishing_net",
+      "equipment": {
+        "assetUrl": "asset://models/tools/fishing-interactions/small-fishing-net-steve-fitted.glb",
+        "sha256": "8138de01389b4e9c417420eeb8fe03ed3c609242e3e352a6e2fe7016a051528a"
+      },
+      "motion": {
+        "assetUrl": "asset://emotes/emote-steve-small-fishing-net-release.glb",
+        "sha256": "5d56e2c78665da11f37968928790c5a4866c75f841ec31923a118142a1250da7",
+        "durationSeconds": 1.2,
+        "presentationTiming": {
+          "durationSeconds": 1.2,
+          "releaseSeconds": 0.78
+        }
+      },
+      "retrievalMotion": {
+        "assetUrl": "asset://emotes/emote-steve-fishing-retrieve.glb",
+        "sha256": "4753a5232d9a36cf606ee4fcfedfab610be2673e72fa8e549315dbe24e78428c",
+        "durationSeconds": 1.2,
+        "presentationTiming": {
+          "durationSeconds": 1.2,
+          "pickupSeconds": 0.42
+        }
+      },
+      "worldModel": {
+        "assetUrl": "asset://models/tools/fishing-interactions/small-fishing-net-world.glb",
+        "sha256": "6855ba8bf48b30a3fc65e26fead6cef51f8fc85a054db540e0633d7c34fa1d8b"
+      },
+      "rollback": {
+        "gatheringModelPathsByAvatar": {},
+        "modelPath": null,
+        "removeInstalledAssets": true
+      }
+    },
+    {
+      "activationId": "steve-lobster-pot-v1",
+      "activationGroupId": "steve-fishing-interactions-v1",
+      "state": "active",
+      "avatarId": "steve",
+      "itemId": "lobster_pot",
+      "slot": "gatheringtool",
+      "bodyEmoteKey": "lobster_pot",
+      "equipment": {
+        "assetUrl": "asset://models/tools/fishing-interactions/lobster-pot-steve-fitted.glb",
+        "sha256": "03bece6576202454c964391adcd29b33d5ee1e93895103707fb59fcc6ea7a1e8"
+      },
+      "motion": {
+        "assetUrl": "asset://emotes/emote-steve-lobster-pot-deploy.glb",
+        "sha256": "bdc01e9545c57992433e6e7da7ff41803099452262bf1b9de6b76aff22565748",
+        "durationSeconds": 1.2,
+        "presentationTiming": {
+          "durationSeconds": 1.2,
+          "releaseSeconds": 1.08
+        }
+      },
+      "retrievalMotion": {
+        "assetUrl": "asset://emotes/emote-steve-fishing-retrieve.glb",
+        "sha256": "4753a5232d9a36cf606ee4fcfedfab610be2673e72fa8e549315dbe24e78428c",
+        "durationSeconds": 1.2,
+        "presentationTiming": {
+          "durationSeconds": 1.2,
+          "pickupSeconds": 0.42
+        }
+      },
+      "worldModel": {
+        "assetUrl": "asset://models/tools/fishing-interactions/lobster-pot-world.glb",
+        "sha256": "2c56e8b5ac393a1550ba77f11eacfb37b9bffdc5bf15be091fa1456ed5fef30a"
+      },
+      "rollback": {
+        "gatheringModelPathsByAvatar": {},
+        "modelPath": null,
+        "removeInstalledAssets": true
+      }
+    }
+  ]
+}

@@ -1,6 +1,6 @@
 {
   "$schema": "../cooking.schema.json",
-  "_comment": "OSRS-accurate cooking recipes. Fire and range cooking with burn mechanics.",
+  "_comment": "rules-consistent cooking recipes. Fire and range cooking with burn mechanics.",
   "recipes": [
     {
       "raw": "raw_shrimp",
