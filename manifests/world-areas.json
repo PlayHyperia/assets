@@ -162,6 +162,7 @@
       "flatZones": [
         {
           "id": "haven_pond_floor",
+          "excludeGrass": false,
           "centerX": 343,
           "centerZ": 302,
           "width": 22,
@@ -369,6 +370,7 @@
       "flatZones": [
         {
           "id": "preparation_campus_grade",
+          "excludeGrass": false,
           "centerX": 350,
           "centerZ": 320,
           "width": 72,
