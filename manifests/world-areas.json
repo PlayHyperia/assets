@@ -365,6 +365,17 @@
           "runeType": "chaos",
           "position": { "x": 19, "y": 0, "z": -19 }
         }
+      ],
+      "flatZones": [
+        {
+          "id": "preparation_campus_grade",
+          "centerX": 0,
+          "centerZ": 0,
+          "width": 72,
+          "depth": 72,
+          "heightOffset": 0,
+          "blendRadius": 12
+        }
       ]
     }
   },
