@@ -112,8 +112,8 @@
   "seed": 0,
   "terrainProfile": {
     "schemaVersion": 1,
-    "algorithm": "terrain-height-params-v1",
-    "id": "compact-duel-island-v1",
+    "algorithm": "compact-island-sculpt-v1",
+    "id": "compact-duel-island-v2",
     "kind": "compact-candidate",
     "seed": 0,
     "boundsMeaning": "nominal-generation-envelope",
@@ -123,15 +123,15 @@
       "centerX": 350,
       "centerZ": 400,
       "radius": 165,
-      "falloff": 30,
-      "deepOceanBuffer": 25,
+      "falloff": 42,
+      "deepOceanBuffer": 15,
       "beachProfilePower": 3,
-      "maxCoastVariation": 0.06
+      "maxCoastVariation": 0.12
     },
     "height": {
       "maxHeightParameter": 50,
-      "terrainScale": 32,
-      "baseOffset": 22,
+      "terrainScale": 12,
+      "baseOffset": 28.15,
       "featureScale": 1.4
     },
     "water": { "threshold": 16, "oceanFloorHeight": 2.5 },
