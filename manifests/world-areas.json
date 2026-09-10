@@ -173,7 +173,8 @@
             "bedRadius": 5,
             "bankInnerRadius": 7,
             "bankOuterRadius": 9,
-            "bankHeight": 28.08
+            "bankHeight": 28.08,
+            "shorelineAmplitude": 0.9
           }
         }
       ],
