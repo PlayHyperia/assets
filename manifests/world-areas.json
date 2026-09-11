@@ -80,7 +80,8 @@
       "resources": [
         {
           "type": "tree",
-          "position": { "x": 366, "y": 0, "z": 310 },
+          "position": { "x": 366.5, "y": 0, "z": 322.5 },
+          "instanceId": "tree_367_311",
           "resourceId": "tree_general"
         }
       ],
@@ -217,22 +218,26 @@
       "resources": [
         {
           "type": "tree",
-          "position": { "x": 372, "y": 0, "z": 312 },
+          "position": { "x": 318.5, "y": 0, "z": 312.5 },
+          "instanceId": "tree_373_313",
           "resourceId": "tree_oak"
         },
         {
           "type": "tree",
-          "position": { "x": 378, "y": 0, "z": 310 },
+          "position": { "x": 323.5, "y": 0, "z": 288.5 },
+          "instanceId": "tree_379_311",
           "resourceId": "tree_maple"
         },
         {
           "type": "tree",
-          "position": { "x": 378, "y": 0, "z": 303 },
+          "position": { "x": 381.5, "y": 0, "z": 329.5 },
+          "instanceId": "tree_379_304",
           "resourceId": "tree_mahogany"
         },
         {
           "type": "tree",
-          "position": { "x": 374, "y": 0, "z": 298 },
+          "position": { "x": 318.5, "y": 0, "z": 344.5 },
+          "instanceId": "tree_375_299",
           "resourceId": "tree_magic"
         },
         {
