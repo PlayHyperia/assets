@@ -5,8 +5,8 @@
     "base": { "x": 340, "y": 0.42, "z": 394 },
     "arenaSize": { "width": 20, "length": 24 },
     "gap": 4,
-    "columns": 2,
-    "rows": 3,
+    "columns": 1,
+    "rows": 1,
     "spawnOffset": 8,
     "spawnLayout": "alongLength"
   },
@@ -23,72 +23,8 @@
         { "x": 342, "z": 416 },
         { "x": 358, "z": 396 }
       ]
-    },
-    {
-      "arenaId": 2,
-      "center": { "x": 374, "z": 406 },
-      "bounds": { "minX": 364, "maxX": 384, "minZ": 394, "maxZ": 418 },
-      "spawnPoints": [
-        { "x": 374, "y": 0.42, "z": 398 },
-        { "x": 374, "y": 0.42, "z": 414 }
-      ],
-      "forfeitPillarPositions": [
-        { "x": 366, "z": 416 },
-        { "x": 382, "z": 396 }
-      ]
-    },
-    {
-      "arenaId": 3,
-      "center": { "x": 350, "z": 434 },
-      "bounds": { "minX": 340, "maxX": 360, "minZ": 422, "maxZ": 446 },
-      "spawnPoints": [
-        { "x": 350, "y": 0.42, "z": 426 },
-        { "x": 350, "y": 0.42, "z": 442 }
-      ],
-      "forfeitPillarPositions": [
-        { "x": 342, "z": 444 },
-        { "x": 358, "z": 424 }
-      ]
-    },
-    {
-      "arenaId": 4,
-      "center": { "x": 374, "z": 434 },
-      "bounds": { "minX": 364, "maxX": 384, "minZ": 422, "maxZ": 446 },
-      "spawnPoints": [
-        { "x": 374, "y": 0.42, "z": 426 },
-        { "x": 374, "y": 0.42, "z": 442 }
-      ],
-      "forfeitPillarPositions": [
-        { "x": 366, "z": 444 },
-        { "x": 382, "z": 424 }
-      ]
-    },
-    {
-      "arenaId": 5,
-      "center": { "x": 350, "z": 462 },
-      "bounds": { "minX": 340, "maxX": 360, "minZ": 450, "maxZ": 474 },
-      "spawnPoints": [
-        { "x": 350, "y": 0.42, "z": 454 },
-        { "x": 350, "y": 0.42, "z": 470 }
-      ],
-      "forfeitPillarPositions": [
-        { "x": 342, "z": 472 },
-        { "x": 358, "z": 452 }
-      ]
-    },
-    {
-      "arenaId": 6,
-      "center": { "x": 374, "z": 462 },
-      "bounds": { "minX": 364, "maxX": 384, "minZ": 450, "maxZ": 474 },
-      "spawnPoints": [
-        { "x": 374, "y": 0.42, "z": 454 },
-        { "x": 374, "y": 0.42, "z": 470 }
-      ],
-      "forfeitPillarPositions": [
-        { "x": 366, "z": 472 },
-        { "x": 382, "z": 452 }
-      ]
     }
+
   ],
   "lobby": {
     "center": { "x": 385, "z": 376 },

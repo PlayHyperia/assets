@@ -394,7 +394,7 @@
         "minX": 316,
         "maxX": 420,
         "minZ": 348.5,
-        "maxZ": 489
+        "maxZ": 433
       },
       "biomeType": "desert",
       "safeZone": true,
@@ -407,9 +407,9 @@
         {
           "id": "duel_arena_campus_grade",
           "centerX": 368,
-          "centerZ": 418.75,
+          "centerZ": 390.75,
           "width": 104,
-          "depth": 140.5,
+          "depth": 84.5,
           "height": 28.419301523097687,
           "blendRadius": 24
         }
