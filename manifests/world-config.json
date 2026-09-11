@@ -112,8 +112,8 @@
   "seed": 0,
   "terrainProfile": {
     "schemaVersion": 1,
-    "algorithm": "compact-island-sculpt-v2",
-    "id": "compact-duel-island-v3",
+    "algorithm": "compact-island-sculpt-v3",
+    "id": "compact-duel-island-v4",
     "kind": "compact-candidate",
     "seed": 0,
     "boundsMeaning": "nominal-generation-envelope",
@@ -162,6 +162,12 @@
       "ridgeEastWidth": 48,
       "ridgeHeight": 18,
       "ridgeEndFade": 35
+    },
+    "bay": {
+      "innerHalfWidth": 24,
+      "centerlineBend": 8,
+      "leftBankScale": 0.95,
+      "rightBankScale": 1.1
     }
   }
 }
