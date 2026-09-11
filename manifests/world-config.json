@@ -112,8 +112,8 @@
   "seed": 0,
   "terrainProfile": {
     "schemaVersion": 1,
-    "algorithm": "compact-island-sculpt-v1",
-    "id": "compact-duel-island-v2",
+    "algorithm": "compact-island-sculpt-v2",
+    "id": "compact-duel-island-v3",
     "kind": "compact-candidate",
     "seed": 0,
     "boundsMeaning": "nominal-generation-envelope",
@@ -144,6 +144,24 @@
       "LAND_MAX_MULTIPLIER": 1.6,
       "UNDERWATER_BAND": 3,
       "UNDERWATER_DEPTH_MULTIPLIER": 1.8
+    },
+    "landform": {
+      "westHeadlandBearing": 3.141592653589793,
+      "westHeadlandHalfWidth": 0.6108652381980153,
+      "westHeadlandStrength": 0.19,
+      "inletBearing": 0.8377580409572781,
+      "inletTipDistance": 84,
+      "inletTipTransition": 26,
+      "inletHalfWidth": 42,
+      "inletBankTransition": 18,
+      "ridgeStartZ": -65,
+      "ridgeEndZ": 75,
+      "ridgeBaseX": -82,
+      "ridgeBend": 30,
+      "ridgeWestWidth": 26,
+      "ridgeEastWidth": 48,
+      "ridgeHeight": 18,
+      "ridgeEndFade": 35
     }
   }
 }
