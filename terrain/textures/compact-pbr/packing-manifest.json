@@ -1,44 +1,109 @@
 {
-  "schemaVersion": 1,
-  "operation": "Lossless RGBA channel packing; originals retained unchanged.",
+  "schemaVersion": 2,
+  "operation": "RGBA8 channel packing; original PNG bytes retained unchanged. Grass004 NormalGL is decoded from 16-bit to 8-bit before packing.",
   "albedoRoughness": "RGB original diffuse (sRGB); alpha original scalar roughness (linear).",
   "normalAo": "RGB original tangent normal (linear); alpha original AO (linear), or 255 where absent.",
   "orientation": "Original pixel order retained for all channels. Runtime uses identical UVs and flipY for each pair.",
   "metallic": 0,
-  "provenance": "Existing repository terrain materials; this conversion does not assert a new license or scan-quality provenance.",
+  "provenance": "Grass: ambientCG Grass004 CC0-1.0, procedural, approximately 1.4m square; see portable per-layer provenance. Dirt/rock: unchanged existing repository terrain materials, without a new license or scan-quality assertion.",
   "layers": {
     "grass": {
       "sources": [
         {
-          "path": "terrain/textures/stylized_grass/stylized_grass_d.png",
-          "sha256": "69872b0d9b1c72816f3858c86ca273e4800b2985d6d3ded2dc6cceb7563ab702"
+          "path": "terrain/textures/ambientcg-grass004/Grass004_1K-PNG_Color.png",
+          "sha256": "1c504b956e5550fedd8822e7e2135fe45f513bc1212f72ed67885de1002fabb6",
+          "bytes": 2233725,
+          "pngBitDepth": 8
         },
         {
-          "path": "terrain/textures/stylized_grass/stylized_grass_r.png",
-          "sha256": "e9aa7f0c4c95b22f17eeb023b4167cdf74a03c9306ede3413306d61857482286"
+          "path": "terrain/textures/ambientcg-grass004/Grass004_1K-PNG_Roughness.png",
+          "sha256": "c3bac30c64d246019e80dd6448544ac381706d43eb583e5ac875cb4f6eece6d8",
+          "bytes": 826778,
+          "pngBitDepth": 8
         },
         {
-          "path": "terrain/textures/stylized_grass/stylized_grass_n.png",
-          "sha256": "dd8b6fea8ac61d786293dbf88b514556b89812cf798bc00dd0233add5f239505"
+          "path": "terrain/textures/ambientcg-grass004/Grass004_1K-PNG_NormalGL.png",
+          "sha256": "a6fce3c4f2c5d486b5c993bf47b47ce9d4c1dbb04ecef424ad2c0b703715c3c6",
+          "bytes": 5986739,
+          "pngBitDepth": 16
         },
-        null
+        {
+          "path": "terrain/textures/ambientcg-grass004/Grass004_1K-PNG_AmbientOcclusion.png",
+          "sha256": "2b90f33cb488385e18d698b6d8e8c649116ebc7478bf7dbd5d08214884adabaf",
+          "bytes": 880694,
+          "pngBitDepth": 8
+        }
       ],
       "diffuseLinearMean": [
-        0.033681753576253116,
-        0.14414087466070133,
-        0.013722332612374167
+        0.12687350988906373,
+        0.16117143469264922,
+        0.03425721790414253
       ],
       "outputs": {
         "albedoRoughness": {
           "path": "terrain/textures/compact-pbr/grass-albedo-roughness.png",
-          "sha256": "d36ddd357a3d9244dd8bbed085721f8cc41492bfa6d3342f7b945cefac609510",
-          "bytes": 1749821
+          "sha256": "689bba1fa129397f928b51dc79ac283898af82a376b34eeeb09d1e01d1a234ad",
+          "bytes": 3077871
         },
         "normalAo": {
           "path": "terrain/textures/compact-pbr/grass-normal-ao.png",
-          "sha256": "86f0932e5aa88dd243020064d5bb189fc5bd68ef72d07e236d1a6b8960f3bb44",
-          "bytes": 107268
+          "sha256": "c87450fc7ecdccf4095ff81aeeb5f81af28710b4976a1cd9bfc3a6c8e884a793",
+          "bytes": 3366439
         }
+      },
+      "provenance": {
+        "schemaVersion": 1,
+        "assetId": "Grass004",
+        "provider": "ambientCG",
+        "sourcePage": "https://ambientcg.com/view?id=Grass004",
+        "license": "CC0-1.0",
+        "licensePage": "https://docs.ambientcg.com/license/",
+        "technique": "surface-fully-procedural",
+        "dimensionsMeters": [
+          1.4,
+          1.4
+        ],
+        "metadataUrl": "https://ambientcg.com/api/v3/assets?id=Grass004&include=downloads,dimensions,maps,technique,title&limit=1",
+        "metadataSha256": "543be0d8e11775343b15954ccc30677304e2db01b088e744604da29e0d8218d7",
+        "archive": {
+          "name": "Grass004_1K-PNG.zip",
+          "bytes": 19597533,
+          "officialUrl": "https://ambientcg.com/get?file=Grass004_1K-PNG.zip",
+          "finalUrl": "https://acg-download.struffelproductions.com/file/ambientCG-Web/download/Grass004_8f7ZrdgN/Grass004_1K-PNG.zip",
+          "sha1": "5738ec75932a2d565f16326ec0a73ec4f6576f38",
+          "sha256": "9bdb8a28536f437e910824096dd8a3d8276d5186a27ad067dea4e2e762a6981b",
+          "digestProvenance": "SHA1 matched official download-host HEAD x-bz-content-sha1. SHA256 was computed locally; it is not an independent publisher signature. API confirms archive name/size, not hashes or member names."
+        },
+        "sources": [
+          {
+            "name": "Grass004_1K-PNG_Color.png",
+            "bytes": 2233725,
+            "sha256": "1c504b956e5550fedd8822e7e2135fe45f513bc1212f72ed67885de1002fabb6",
+            "pngBitDepth": 8
+          },
+          {
+            "name": "Grass004_1K-PNG_Roughness.png",
+            "bytes": 826778,
+            "sha256": "c3bac30c64d246019e80dd6448544ac381706d43eb583e5ac875cb4f6eece6d8",
+            "pngBitDepth": 8
+          },
+          {
+            "name": "Grass004_1K-PNG_NormalGL.png",
+            "bytes": 5986739,
+            "sha256": "a6fce3c4f2c5d486b5c993bf47b47ce9d4c1dbb04ecef424ad2c0b703715c3c6",
+            "pngBitDepth": 16
+          },
+          {
+            "name": "Grass004_1K-PNG_AmbientOcclusion.png",
+            "bytes": 880694,
+            "sha256": "2b90f33cb488385e18d698b6d8e8c649116ebc7478bf7dbd5d08214884adabaf",
+            "pngBitDepth": 8
+          }
+        ],
+        "precision": "Original PNG bytes retained. Existing pngjs decode produces RGBA8, including 16-to-8-bit NormalGL quantization. Packing preserves decoded channels, not original 16-bit normal precision.",
+        "qualification": "Isolated source and channel-packing verification only; native appearance, mips, normal quality and performance are not approved by this provenance record.",
+        "path": "terrain/textures/ambientcg-grass004/provenance.json",
+        "sourcePathBase": "assets-root"
       }
     },
     "dirt": {

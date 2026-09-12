@@ -1,0 +1,49 @@
+{
+  "schemaVersion": 1,
+  "assetId": "Grass004",
+  "provider": "ambientCG",
+  "sourcePage": "https://ambientcg.com/view?id=Grass004",
+  "license": "CC0-1.0",
+  "licensePage": "https://docs.ambientcg.com/license/",
+  "technique": "surface-fully-procedural",
+  "dimensionsMeters": [1.4, 1.4],
+  "metadataUrl": "https://ambientcg.com/api/v3/assets?id=Grass004&include=downloads,dimensions,maps,technique,title&limit=1",
+  "metadataSha256": "543be0d8e11775343b15954ccc30677304e2db01b088e744604da29e0d8218d7",
+  "archive": {
+    "name": "Grass004_1K-PNG.zip",
+    "bytes": 19597533,
+    "officialUrl": "https://ambientcg.com/get?file=Grass004_1K-PNG.zip",
+    "finalUrl": "https://acg-download.struffelproductions.com/file/ambientCG-Web/download/Grass004_8f7ZrdgN/Grass004_1K-PNG.zip",
+    "sha1": "5738ec75932a2d565f16326ec0a73ec4f6576f38",
+    "sha256": "9bdb8a28536f437e910824096dd8a3d8276d5186a27ad067dea4e2e762a6981b",
+    "digestProvenance": "SHA1 matched official download-host HEAD x-bz-content-sha1. SHA256 was computed locally; it is not an independent publisher signature. API confirms archive name/size, not hashes or member names."
+  },
+  "sources": [
+    {
+      "name": "Grass004_1K-PNG_Color.png",
+      "bytes": 2233725,
+      "sha256": "1c504b956e5550fedd8822e7e2135fe45f513bc1212f72ed67885de1002fabb6",
+      "pngBitDepth": 8
+    },
+    {
+      "name": "Grass004_1K-PNG_Roughness.png",
+      "bytes": 826778,
+      "sha256": "c3bac30c64d246019e80dd6448544ac381706d43eb583e5ac875cb4f6eece6d8",
+      "pngBitDepth": 8
+    },
+    {
+      "name": "Grass004_1K-PNG_NormalGL.png",
+      "bytes": 5986739,
+      "sha256": "a6fce3c4f2c5d486b5c993bf47b47ce9d4c1dbb04ecef424ad2c0b703715c3c6",
+      "pngBitDepth": 16
+    },
+    {
+      "name": "Grass004_1K-PNG_AmbientOcclusion.png",
+      "bytes": 880694,
+      "sha256": "2b90f33cb488385e18d698b6d8e8c649116ebc7478bf7dbd5d08214884adabaf",
+      "pngBitDepth": 8
+    }
+  ],
+  "precision": "Original PNG bytes retained. Existing pngjs decode produces RGBA8, including 16-to-8-bit NormalGL quantization. Packing preserves decoded channels, not original 16-bit normal precision.",
+  "qualification": "Isolated source and channel-packing verification only; native appearance, mips, normal quality and performance are not approved by this provenance record."
+}
