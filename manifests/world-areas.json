@@ -117,12 +117,23 @@
       "flatZones": [
         {
           "id": "central_haven_plaza",
+          "excludeGrass": false,
           "centerX": 350,
           "centerZ": 320,
           "width": 36,
           "depth": 36,
           "height": 28.419301523097687,
           "blendRadius": 6
+        },
+        {
+          "id": "central_haven_lodge_grass_clearance",
+          "excludeGrass": true,
+          "centerX": 350,
+          "centerZ": 326.97,
+          "width": 10,
+          "depth": 12.06,
+          "height": 28.419301523097687,
+          "blendRadius": 0
         }
       ]
     }
