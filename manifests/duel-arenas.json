@@ -28,11 +28,11 @@
   ],
   "lobby": {
     "center": { "x": 385, "z": 376 },
-    "size": { "width": 40, "depth": 25 },
+    "size": { "width": 18, "depth": 16 },
     "spawnPoint": { "x": 385, "y": 0.42, "z": 374 }
   },
   "hospital": {
     "center": { "x": 345, "z": 376 },
-    "size": { "width": 28, "depth": 23 }
+    "size": { "width": 12, "depth": 12 }
   }
 }

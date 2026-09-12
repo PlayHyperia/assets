@@ -13,10 +13,10 @@
     "layoutId": "compact-preparation-lodge-v1",
     "terrainProfileId": "compact-duel-island-v6",
     "position": {
-      "x": 398,
-      "z": 370
+      "x": 350,
+      "z": 328
     },
-    "rotation": 0,
+    "rotation": 3.141592653589793,
     "layoutSeed": "compact-bank-lodge01:360,318:8x8:south",
     "recipeId": "compact-bank-lodge01-v1"
   },
