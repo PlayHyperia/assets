@@ -1,11 +1,11 @@
 {
-  "schemaVersion": 2,
-  "operation": "RGBA8 channel packing; original PNG bytes retained unchanged. Grass004 NormalGL is decoded from 16-bit to 8-bit before packing.",
+  "schemaVersion": 3,
+  "operation": "RGBA8 channel packing; original PNG bytes retained unchanged. Rock Face 03 maps and any Grass004 NormalGL are quantized from 16-bit to 8-bit before exact decoded-channel packing.",
   "albedoRoughness": "RGB original diffuse (sRGB); alpha original scalar roughness (linear).",
   "normalAo": "RGB original tangent normal (linear); alpha original AO (linear), or 255 where absent.",
   "orientation": "Original pixel order retained for all channels. Runtime uses identical UVs and flipY for each pair.",
   "metallic": 0,
-  "provenance": "Grass: ambientCG Grass004 CC0-1.0, procedural, approximately 1.4m square; see portable per-layer provenance. Dirt/rock: unchanged existing repository terrain materials, without a new license or scan-quality assertion.",
+  "provenance": "Rock: Poly Haven Rock Face 03 CC0-1.0, photographed surface, approximately 2.7m square; see portable per-layer provenance. Grass: ambientCG Grass004 CC0-1.0, procedural, approximately 1.4m square; see portable per-layer provenance. Dirt: unchanged existing repository terrain material, without a new license or scan-quality assertion.",
   "layers": {
     "grass": {
       "sources": [
@@ -146,38 +146,109 @@
     "rock": {
       "sources": [
         {
-          "path": "terrain/textures/rock/rock_d.png",
-          "sha256": "3e933d50f340bead51b26326e846f767e3fea9041b46dc3fe209db69d69b8a92"
+          "path": "terrain/textures/polyhaven-rock-face-03/rock_face_03_diff_1k.png",
+          "sha256": "6f3be181a09c1489e9a355f86810bcfe5e43e4de9f9e21648cef51fa68220f91",
+          "bytes": 5693797,
+          "pngBitDepth": 16
         },
         {
-          "path": "terrain/textures/rock/rock__r.png",
-          "sha256": "7a6b42f3b00aa1827042b5cd5d73c71b3cf2bd627f7e5709854a1ca4eff9ebbc"
+          "path": "terrain/textures/polyhaven-rock-face-03/rock_face_03_rough_1k.png",
+          "sha256": "2c16f7644044eddb090113f7ac549e8ac8ab44b5b963437ae702075f617ad3dd",
+          "bytes": 1861487,
+          "pngBitDepth": 16
         },
         {
-          "path": "terrain/textures/rock/rock_n.png",
-          "sha256": "23dce739ec12e674f84d4c4068024ea23f2387697c4d6ac929dd686906483814"
+          "path": "terrain/textures/polyhaven-rock-face-03/rock_face_03_nor_gl_1k.png",
+          "sha256": "69cb133b4c6e7d046820bf5d1642dde3bbbaa56e5d4c889992ba251db8cf5218",
+          "bytes": 5841646,
+          "pngBitDepth": 16
         },
         {
-          "path": "terrain/textures/rock/rock_ao.png",
-          "sha256": "bf91200afa8d79081ad055e0f35ec8a464c7aa24135fe8a30a24753759a8305a"
+          "path": "terrain/textures/polyhaven-rock-face-03/rock_face_03_ao_1k.png",
+          "sha256": "761351f720b452fd3c89171014fe36696379dde62c29f67990ccc48bd077420b",
+          "bytes": 1878514,
+          "pngBitDepth": 16
         }
       ],
       "diffuseLinearMean": [
-        0.23471111495321656,
-        0.21598528801526068,
-        0.17766932960947915
+        0.2327181410040423,
+        0.14549203474325217,
+        0.08365218395286236
       ],
       "outputs": {
         "albedoRoughness": {
           "path": "terrain/textures/compact-pbr/rock-albedo-roughness.png",
-          "sha256": "6d60baa29999649c294f9f9bbbbf194e57841bd25a6e984b6a1284c0fb202ff1",
-          "bytes": 1510392
+          "sha256": "97f2d36833a7ce119d021cfa9728c42d292044297b172772c02f07f34403311a",
+          "bytes": 2593468
         },
         "normalAo": {
           "path": "terrain/textures/compact-pbr/rock-normal-ao.png",
-          "sha256": "db544a21396d150c73afb6a51660ec441033aee96da2c05e33bd448ec33ffb78",
-          "bytes": 1748953
+          "sha256": "056c1754f2e2315a22480025ffe798497d6674fc76b05d8c7f42b3c928268aa4",
+          "bytes": 2893322
         }
+      },
+      "provenance": {
+        "schemaVersion": 1,
+        "assetId": "rock_face_03",
+        "provider": "Poly Haven",
+        "sourcePage": "https://polyhaven.com/a/rock_face_03",
+        "license": "CC0-1.0",
+        "licensePage": "https://polyhaven.com/license",
+        "technique": "photographed-surface",
+        "authors": {
+          "Dario Barresi": "Photography",
+          "Rico Cilliers": "Processing"
+        },
+        "dimensionsMeters": [
+          2.7,
+          2.7
+        ],
+        "infoApi": "https://api.polyhaven.com/info/rock_face_03",
+        "filesApi": "https://api.polyhaven.com/files/rock_face_03",
+        "sourceObservationSha256": "9002936c2d60bb3c9f0993491a9854c753da9f12fdbcaa81c1a6186242be22e2",
+        "digestProvenance": "Byte sizes and MD5 matched the official files API. SHA256 was computed locally; it is not an independent publisher signature.",
+        "sources": [
+          {
+            "name": "rock_face_03_diff_1k.png",
+            "officialUrl": "https://dl.polyhaven.org/file/ph-assets/Textures/png/1k/rock_face_03/rock_face_03_diff_1k.png",
+            "bytes": 5693797,
+            "publisherMd5": "9c0e0f8a40d9bde94b4e92fa5574648a",
+            "sha256": "6f3be181a09c1489e9a355f86810bcfe5e43e4de9f9e21648cef51fa68220f91",
+            "pngBitDepth": 16,
+            "pngColorType": 2
+          },
+          {
+            "name": "rock_face_03_rough_1k.png",
+            "officialUrl": "https://dl.polyhaven.org/file/ph-assets/Textures/png/1k/rock_face_03/rock_face_03_rough_1k.png",
+            "bytes": 1861487,
+            "publisherMd5": "f0882d41a7a4158c95efb93ce353b0b1",
+            "sha256": "2c16f7644044eddb090113f7ac549e8ac8ab44b5b963437ae702075f617ad3dd",
+            "pngBitDepth": 16,
+            "pngColorType": 0
+          },
+          {
+            "name": "rock_face_03_nor_gl_1k.png",
+            "officialUrl": "https://dl.polyhaven.org/file/ph-assets/Textures/png/1k/rock_face_03/rock_face_03_nor_gl_1k.png",
+            "bytes": 5841646,
+            "publisherMd5": "17a4feb957478ce571e1146c1e278e31",
+            "sha256": "69cb133b4c6e7d046820bf5d1642dde3bbbaa56e5d4c889992ba251db8cf5218",
+            "pngBitDepth": 16,
+            "pngColorType": 2
+          },
+          {
+            "name": "rock_face_03_ao_1k.png",
+            "officialUrl": "https://dl.polyhaven.org/file/ph-assets/Textures/png/1k/rock_face_03/rock_face_03_ao_1k.png",
+            "bytes": 1878514,
+            "publisherMd5": "991616fef343261657cc8bdc16c08222",
+            "sha256": "761351f720b452fd3c89171014fe36696379dde62c29f67990ccc48bd077420b",
+            "pngBitDepth": 16,
+            "pngColorType": 0
+          }
+        ],
+        "precision": "Original unsigned 16-bit PNG bytes retained. pngjs rounds each sample to RGBA8 before exact channel packing; this quantization is lossy. No ICC/gamma transform, normal normalization, resampling, premultiplication or orientation change. Diffuse RGB remains encoded sRGB; normal RGB, roughness and AO remain linear non-color data despite original profile tags. Derivative PNGs contain no color-profile chunks.",
+        "qualification": "Exact source and decoded-channel packing qualification only; native appearance, repeats, mips, normal response, motion and GPU performance require separate evidence.",
+        "path": "terrain/textures/polyhaven-rock-face-03/provenance.json",
+        "sourcePathBase": "assets-root"
       }
     }
   }
