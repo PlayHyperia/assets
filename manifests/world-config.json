@@ -1,5 +1,14 @@
 {
   "version": 2,
+  "compactPreparationLodge": {
+    "schemaVersion": 1,
+    "layoutId": "compact-preparation-lodge-v1",
+    "terrainProfileId": "compact-duel-island-v4",
+    "position": { "x": 398, "z": 370 },
+    "rotation": 0,
+    "layoutSeed": "compact-bank-lodge01:360,318:8x8:south",
+    "recipeId": "compact-bank-lodge01-v1"
+  },
   "compactResourceGroves": {
     "schemaVersion": 1,
     "layoutId": "compact-functional-groves-v1",
