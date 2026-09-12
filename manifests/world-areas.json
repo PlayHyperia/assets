@@ -422,6 +422,7 @@
       "flatZones": [
         {
           "id": "duel_arena_campus_grade",
+          "excludeGrass": false,
           "centerX": 368,
           "centerZ": 390.75,
           "width": 104,
