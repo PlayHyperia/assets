@@ -1,83 +1,123 @@
 {
   "compactServicePlanting": {
-    "schemaVersion": 1,
-    "layoutId": "compact-smithy-planting-v1",
+    "schemaVersion": 2,
+    "layoutId": "compact-smithy-planting-v2",
     "terrainProfileId": "compact-duel-island-v6",
     "beds": [
       {
         "id": "west",
         "plants": [
           {
+            "model": "bush",
             "x": 329.25,
             "z": 335,
             "scale": 0.9,
             "yaw": 0.4
           },
           {
+            "model": "bush",
             "x": 330.1,
             "z": 335.45,
             "scale": 0.65,
             "yaw": 2.3
           },
           {
+            "model": "bush",
             "x": 328.9,
             "z": 336.05,
             "scale": 0.75,
             "yaw": 4.6
           },
           {
+            "model": "bush",
             "x": 329.8,
             "z": 336.45,
             "scale": 0.95,
             "yaw": 1.4
           },
           {
+            "model": "bush",
             "x": 328.6,
             "z": 336.95,
             "scale": 0.65,
             "yaw": 3.8
           },
           {
+            "model": "bush",
             "x": 329.55,
             "z": 337.4,
             "scale": 0.72,
             "yaw": 5.5
           },
           {
+            "model": "bush",
             "x": 329,
             "z": 339.65,
             "scale": 0.95,
             "yaw": 2.7
           },
           {
+            "model": "bush",
             "x": 330.1,
             "z": 340,
             "scale": 0.7,
             "yaw": 0.8
           },
           {
+            "model": "bush",
             "x": 328.7,
             "z": 340.6,
             "scale": 0.8,
             "yaw": 4.2
           },
           {
+            "model": "bush",
             "x": 329.8,
             "z": 341.15,
             "scale": 0.9,
             "yaw": 1.8
           },
           {
+            "model": "bush",
             "x": 328.65,
             "z": 341.65,
             "scale": 0.7,
             "yaw": 5.9
           },
           {
+            "model": "bush",
             "x": 330,
             "z": 342.25,
             "scale": 0.75,
             "yaw": 3.1
+          },
+          {
+            "model": "fern",
+            "x": 328,
+            "z": 335.55,
+            "scale": 0.55,
+            "yaw": 1.05
+          },
+          {
+            "model": "fern",
+            "x": 328.05,
+            "z": 340.2,
+            "scale": 0.6,
+            "yaw": 5.15
+          }
+        ],
+        "soilLobes": [
+          {
+            "centerX": 329.2,
+            "centerZ": 336.1,
+            "radiusX": 1.35,
+            "radiusZ": 2.1
+          },
+          {
+            "centerX": 329.35,
+            "centerZ": 340.9,
+            "radiusX": 1.5,
+            "radiusZ": 2.2
           }
         ]
       },
@@ -85,52 +125,88 @@
         "id": "east",
         "plants": [
           {
+            "model": "bush",
             "x": 343.05,
             "z": 338.8,
             "scale": 0.8,
             "yaw": 3.2
           },
           {
+            "model": "bush",
             "x": 344.45,
             "z": 339.1,
             "scale": 0.95,
             "yaw": 0.2
           },
           {
+            "model": "bush",
             "x": 343.1,
             "z": 337.65,
             "scale": 0.68,
             "yaw": 5.1
           },
           {
+            "model": "bush",
             "x": 344.4,
             "z": 338,
             "scale": 0.7,
             "yaw": 1.7
           },
           {
+            "model": "bush",
             "x": 343.6,
             "z": 340,
             "scale": 0.9,
             "yaw": 4.4
           },
           {
+            "model": "bush",
             "x": 344.5,
             "z": 340.7,
             "scale": 0.7,
             "yaw": 2.6
           },
           {
+            "model": "bush",
             "x": 343.3,
             "z": 341.1,
             "scale": 0.8,
             "yaw": 0.7
           },
           {
+            "model": "bush",
             "x": 344.1,
             "z": 341.85,
             "scale": 0.75,
             "yaw": 5.8
+          },
+          {
+            "model": "fern",
+            "x": 342.95,
+            "z": 337.5,
+            "scale": 0.52,
+            "yaw": 2.2
+          },
+          {
+            "model": "fern",
+            "x": 344.8,
+            "z": 341.6,
+            "scale": 0.55,
+            "yaw": 4.7
+          }
+        ],
+        "soilLobes": [
+          {
+            "centerX": 343.7,
+            "centerZ": 338.3,
+            "radiusX": 1.38,
+            "radiusZ": 1.7
+          },
+          {
+            "centerX": 343.95,
+            "centerZ": 340.65,
+            "radiusX": 1.4,
+            "radiusZ": 1.95
           }
         ]
       }
@@ -143,6 +219,31 @@
     "position": { "x": 336.5, "z": 337.5 },
     "rotation": 0,
     "recipeId": "open-timber-smithy-v2"
+  },
+  "compactLandscapeRocks": {
+    "schemaVersion": 1,
+    "layoutId": "compact-preparation-rocks-v1",
+    "terrainProfileId": "compact-duel-island-v6",
+    "sourceSha256": "62c8c753c57b7108f79c98ee0f1bbb2497c27e3fe55a15979765fa02da184c55",
+    "rocks": [
+      { "id": "pond-west-01", "variant": "rock13", "x": 333.2, "z": 298.8, "yaw": 0.4, "scale": 1.25 },
+      { "id": "pond-west-02", "variant": "rock10", "x": 334.1, "z": 297.6, "yaw": 2.2, "scale": 1.0 },
+      { "id": "pond-west-03", "variant": "rock11", "x": 332.2, "z": 299.7, "yaw": 1.3, "scale": 0.85 },
+      { "id": "pond-west-04", "variant": "rock10", "x": 334.8, "z": 299.7, "yaw": 3.4, "scale": 0.65 },
+      { "id": "pond-west-05", "variant": "rock11", "x": 333.3, "z": 301.2, "yaw": 4.7, "scale": 0.8 },
+      { "id": "pond-north-01", "variant": "rock11", "x": 340.8, "z": 292.7, "yaw": 1.4, "scale": 1.3 },
+      { "id": "pond-north-02", "variant": "rock13", "x": 342.4, "z": 292.2, "yaw": 3.7, "scale": 1.0 },
+      { "id": "pond-north-03", "variant": "rock10", "x": 343.7, "z": 292.7, "yaw": 2.5, "scale": 0.85 },
+      { "id": "pond-north-04", "variant": "rock10", "x": 340.2, "z": 294.0, "yaw": 5.2, "scale": 0.65 },
+      { "id": "pond-east-01", "variant": "rock10", "x": 351.3, "z": 297.7, "yaw": 1.1, "scale": 1.15 },
+      { "id": "pond-east-02", "variant": "rock11", "x": 352.0, "z": 299.0, "yaw": 3.8, "scale": 0.9 },
+      { "id": "pond-east-03", "variant": "rock13", "x": 352.3, "z": 297.0, "yaw": 2.4, "scale": 0.75 },
+      { "id": "pond-east-04", "variant": "rock11", "x": 350.1, "z": 296.8, "yaw": 5.4, "scale": 0.65 },
+      { "id": "workshop-approach-01", "variant": "rock13", "x": 326.0, "z": 328.0, "yaw": 0.4, "scale": 1.1 },
+      { "id": "workshop-approach-02", "variant": "rock10", "x": 324.2, "z": 328.7, "yaw": 2.2, "scale": 1.0 },
+      { "id": "workshop-approach-03", "variant": "rock11", "x": 328.0, "z": 329.7, "yaw": 1.3, "scale": 1.0 },
+      { "id": "workshop-approach-04", "variant": "rock10", "x": 326.8, "z": 331.6, "yaw": 0.7, "scale": 0.85 }
+    ]
   },
   "version": 2,
   "compactPreparationLodge": {
@@ -805,6 +906,55 @@
       "warpWavelength": 96,
       "facetRelief": 0.6,
       "facetScale": 0.06
+    },
+    "havenShoulder": {
+      "schemaVersion": 1,
+      "minX": 272,
+      "maxX": 314,
+      "minZ": 303,
+      "maxZ": 367,
+      "grade": 28.419301523097687,
+      "westFade": 6,
+      "eastFade": 3,
+      "northFade": 7,
+      "southFade": 8,
+      "crestWidth": 2,
+      "faceRun": 8,
+      "shelfMinWidth": 1.5,
+      "faceChamfer": 0.25,
+      "notchDepth": 1.2,
+      "notchWidth": 6,
+      "notchEndFade": 6,
+      "crest": [
+        [286, 310, 31.3],
+        [290, 319, 36.7],
+        [287, 328, 39],
+        [289, 337, 36.5],
+        [282, 349, 37.2],
+        [278, 359, 35.6]
+      ],
+      "shelf": [
+        [296, 310, 30],
+        [300, 319, 33.2],
+        [298, 328, 34.9],
+        [303, 337, 32.7],
+        [297, 349, 32.8],
+        [294, 359, 31.6]
+      ],
+      "toe": [
+        [308, 310, 28.6],
+        [311, 319, 28.8],
+        [311, 328, 29],
+        [312, 337, 28.85],
+        [310, 349, 28.7],
+        [307, 359, 28.8]
+      ],
+      "notch": [
+        [283, 331],
+        [290, 334],
+        [299, 338],
+        [307, 340]
+      ]
     }
   }
 }
