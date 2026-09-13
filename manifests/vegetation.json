@@ -5,6 +5,14 @@
     {
       "id": "mushroom",
       "model": "trees/mushroom.glb",
+      "lod1Model": "trees/mushroom-lod1.glb",
+      "screenSpaceLod": {
+        "maxSurfaceError": 0.024,
+        "enterErrorPixels": 0.4,
+        "exitErrorPixels": 0.6,
+        "enterExtentPixels": 24,
+        "exitExtentPixels": 30
+      },
       "category": "mushroom",
       "baseScale": 0.15,
       "scaleVariation": [0.8, 1.2],
