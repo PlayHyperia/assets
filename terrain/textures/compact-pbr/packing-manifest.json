@@ -1,11 +1,11 @@
 {
-  "schemaVersion": 3,
-  "operation": "RGBA8 channel packing; original PNG bytes retained unchanged. Rock Face 03 maps and any Grass004 NormalGL are quantized from 16-bit to 8-bit before exact decoded-channel packing.",
+  "schemaVersion": 4,
+  "operation": "RGBA8 channel packing; original PNG bytes retained unchanged. Poly Haven Dirt maps, any Rock Face 03 maps and any Grass004 NormalGL are quantized from 16-bit to 8-bit before exact decoded-channel packing.",
   "albedoRoughness": "RGB original diffuse (sRGB); alpha original scalar roughness (linear).",
   "normalAo": "RGB original tangent normal (linear); alpha original AO (linear), or 255 where absent.",
   "orientation": "Original pixel order retained for all channels. Runtime uses identical UVs and flipY for each pair.",
   "metallic": 0,
-  "provenance": "Rock: Poly Haven Rock Face 03 CC0-1.0, photographed surface, approximately 2.7m square; see portable per-layer provenance. Grass: ambientCG Grass004 CC0-1.0, procedural, approximately 1.4m square; see portable per-layer provenance. Dirt: unchanged existing repository terrain material, without a new license or scan-quality assertion.",
+  "provenance": "Dirt: Poly Haven Dirt CC0-1.0, photographed surface, approximately 2m square; see portable per-layer provenance. Grass: ambientCG Grass004 CC0-1.0, procedural, approximately 1.4m square; see portable per-layer provenance. Rock: Poly Haven Rock Face 03 CC0-1.0, photographed surface, approximately 2.7m square; see portable per-layer provenance.",
   "layers": {
     "grass": {
       "sources": [
@@ -109,38 +109,109 @@
     "dirt": {
       "sources": [
         {
-          "path": "terrain/textures/dirt_ground/dirt_ground_d.png",
-          "sha256": "6db27a51d2a35bdd6814e68cb28ec6e1e0669c84d28949f9e9a405548d476bfc"
+          "path": "terrain/textures/polyhaven-dirt/dirt_diff_1k.png",
+          "sha256": "96b3eb441121c41806a4766f37eeeeb4667af73207ccd8bfb56bbd446a221d42",
+          "bytes": 5504678,
+          "pngBitDepth": 16
         },
         {
-          "path": "terrain/textures/dirt_ground/dirt_ground_r.png",
-          "sha256": "76a8dd0a64c826093f86eb1fbff689940c35cf830a58792a41a9ac0a484bf715"
+          "path": "terrain/textures/polyhaven-dirt/dirt_rough_1k.png",
+          "sha256": "29f68a8972f1e69cf47e67924efe469350f953a5f707f63633a9c36cd7c63f6a",
+          "bytes": 1586570,
+          "pngBitDepth": 16
         },
         {
-          "path": "terrain/textures/dirt_ground/dirt_ground_n.png",
-          "sha256": "c414cbca7a0a67f8243b4be577299fa201ccd36505a005854d4387a603c23d3e"
+          "path": "terrain/textures/polyhaven-dirt/dirt_nor_gl_1k.png",
+          "sha256": "be315cdb7667d58df160a92be2b22423480912ac5668188f3c8360d464203f47",
+          "bytes": 5904305,
+          "pngBitDepth": 16
         },
         {
-          "path": "terrain/textures/dirt_ground/dirt_ground_ao.png",
-          "sha256": "d7caca27b60eb258d7f7a056ebfbf76552d76293322bf9262294741c84280fe7"
+          "path": "terrain/textures/polyhaven-dirt/dirt_ao_1k.png",
+          "sha256": "00981482d9b57c3da11417e7a19c751bfdb58c1fec51d695fa391eaab72a1500",
+          "bytes": 1887607,
+          "pngBitDepth": 16
         }
       ],
       "diffuseLinearMean": [
-        0.13570346695867627,
-        0.10530763563352,
-        0.06788700038018664
+        0.1258525186051025,
+        0.08567628015146961,
+        0.0490416307568836
       ],
       "outputs": {
         "albedoRoughness": {
           "path": "terrain/textures/compact-pbr/dirt-albedo-roughness.png",
-          "sha256": "fa96eddfdf4a089f34a48eb85feaea6082a360500348e28efd8c3ed4f2ec9dc6",
-          "bytes": 1966639
+          "sha256": "357b327ed327304b25193ce2a3924bf71b139764e93411a54b8c7469a296baef",
+          "bytes": 2108708
         },
         "normalAo": {
           "path": "terrain/textures/compact-pbr/dirt-normal-ao.png",
-          "sha256": "70ea434b6df2b7bc072f6099511400134d68f934a9e31d66c9c09b0528a69caa",
-          "bytes": 2369664
+          "sha256": "5e860d999d7d9545740fa12dbff729b2b9233b22179f46e46c6fd2f5facca7d3",
+          "bytes": 3031384
         }
+      },
+      "provenance": {
+        "schemaVersion": 1,
+        "assetId": "dirt",
+        "provider": "Poly Haven",
+        "sourcePage": "https://polyhaven.com/a/dirt",
+        "license": "CC0-1.0",
+        "licensePage": "https://polyhaven.com/license",
+        "technique": "photographed-surface",
+        "authors": {
+          "Charlotte Baglioni": "All"
+        },
+        "dimensionsMeters": [
+          2,
+          2
+        ],
+        "dimensionsProvenance": "The official asset page states 2m width. The info API records [2000, 2000] without a unit field; those raw numbers are not interpreted as meters.",
+        "infoApi": "https://api.polyhaven.com/info/dirt",
+        "filesApi": "https://api.polyhaven.com/files/dirt",
+        "sourceObservationSha256": "92bdf9aa300c2f37584090f75665c14758ae567f1adbac93a5d98e025a6eb415",
+        "digestProvenance": "Byte sizes and MD5 matched the official files API. SHA256 was computed locally; it is not an independent publisher signature.",
+        "sources": [
+          {
+            "name": "dirt_diff_1k.png",
+            "officialUrl": "https://dl.polyhaven.org/file/ph-assets/Textures/png/1k/dirt/dirt_diff_1k.png",
+            "bytes": 5504678,
+            "publisherMd5": "033b3aaa80b816a1a53ed211d69a3328",
+            "sha256": "96b3eb441121c41806a4766f37eeeeb4667af73207ccd8bfb56bbd446a221d42",
+            "pngBitDepth": 16,
+            "pngColorType": 2
+          },
+          {
+            "name": "dirt_rough_1k.png",
+            "officialUrl": "https://dl.polyhaven.org/file/ph-assets/Textures/png/1k/dirt/dirt_rough_1k.png",
+            "bytes": 1586570,
+            "publisherMd5": "293473a9600f0938205a05461a4396bb",
+            "sha256": "29f68a8972f1e69cf47e67924efe469350f953a5f707f63633a9c36cd7c63f6a",
+            "pngBitDepth": 16,
+            "pngColorType": 0
+          },
+          {
+            "name": "dirt_nor_gl_1k.png",
+            "officialUrl": "https://dl.polyhaven.org/file/ph-assets/Textures/png/1k/dirt/dirt_nor_gl_1k.png",
+            "bytes": 5904305,
+            "publisherMd5": "e1d855d9d6b1c9b39681ee4f4097303b",
+            "sha256": "be315cdb7667d58df160a92be2b22423480912ac5668188f3c8360d464203f47",
+            "pngBitDepth": 16,
+            "pngColorType": 2
+          },
+          {
+            "name": "dirt_ao_1k.png",
+            "officialUrl": "https://dl.polyhaven.org/file/ph-assets/Textures/png/1k/dirt/dirt_ao_1k.png",
+            "bytes": 1887607,
+            "publisherMd5": "c9ed532b791721c45820cd88f421fca0",
+            "sha256": "00981482d9b57c3da11417e7a19c751bfdb58c1fec51d695fa391eaab72a1500",
+            "pngBitDepth": 16,
+            "pngColorType": 0
+          }
+        ],
+        "precision": "Original unsigned 16-bit PNG bytes retained. pngjs rounds each sample to RGBA8 before exact channel packing; this quantization is lossy. No ICC/gamma transform, normal normalization, resampling, premultiplication or orientation change. Diffuse RGB remains encoded sRGB; normal RGB, roughness and AO remain linear non-color data despite original profile tags. Derivative PNGs contain no color-profile chunks.",
+        "qualification": "Exact source and decoded-channel packing qualification only; native appearance, repeats, mips, normal response, motion and GPU performance require separate evidence.",
+        "path": "terrain/textures/polyhaven-dirt/provenance.json",
+        "sourcePathBase": "assets-root"
       }
     },
     "rock": {
